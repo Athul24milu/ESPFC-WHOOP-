@@ -1,19 +1,19 @@
-# ESP FPV / ATHUL L3 - prototype fabrication revision
+# ESP FPV / ATHUL L4 - original silkscreen restored
 
 Updated 11 November 2026. Open ESP_FPV_ATHUL_IOGROUPED.kicad_pro in KiCad 10.
 
-## Current validation
-Official KiCad 10.0.3 checks after zone refill: **0 errors, 0 warnings, 0 unconnected items, 0 schematic parity issues and 0 ERC violations**. No PCB DRC checks were disabled and no DRC exclusions were added. ERC uses the unchanged L2 project rules. The former 55 PCB warnings are resolved.
+## Change scope
+Only the original silkscreen text and markings were restored. All 1,023 original artwork objects match L2 by geometry, text, layer and count. Full CAM, VTX, SA, RX, TX and 1S labels, original polarity symbols, separators and logo are back. The L3 short-label redesign and replacement graphic symbols are removed from the printed artwork.
 
-Nine track approaches now terminate at their via centers. Only the short approach sections changed, preserving the surrounding routes. All 75 footprints, their pad geometry, pad nets, mounting holes and the board outline are unchanged from L2. MPU-6050 exposed-die clearance and the five OSD thermal vias are verified. Mask spacing passes the independent check.
+Every corrected L3 track and via is unchanged. All footprints, pad geometry, pad nets, mounting holes and board outline are unchanged. The nine off-center via approach warnings remain resolved. See SILK_RESTORE.json and GEOMETRY_CHECK.json.
 
-## Printed labels
-Text uses KiCad stroke lettering, 1.00 mm high with 0.15 mm strokes. Tight connector areas use short codes: B=battery, C=camera video, V=video output, S=SmartAudio, R=FC RX, T=FC TX. Polarity marks are compact graphic symbols with 0.15 mm strokes beside the original pads. Decorative separator lines were moved to the non-fabricated drawing layer. The logo remains. See the updated L3 guides and actual exported top/bottom images.
+## Current checks
+KiCad 10.0.3: 0 electrical DRC errors, 0 unconnected items, 0 schematic parity issues, 0 ERC violations. There are 46 visible original text warnings: 26 text-height and 20 text-thickness warnings. No PCB DRC checks were disabled or excluded. ERC uses the unchanged project rules.
 
-## Order settings
-Upload only ESP_FC_L3_PCB_ONLY_GERBERS.zip. Four layers, 40 x 40 mm nominal outline, 1.00 mm FR4, 35 um / 1 oz copper on ALL FOUR layers, white mask, black legend and ENIG. Standard through vias, minimum drill 0.20 mm. There are 113 plated via holes and four 2.10 mm NPTH mounting holes. The ZIP has 11 Gerbers, two drills and order notes; no BOM or component data.
+Original artwork includes small text below standard 1mm height / 0.15mm stroke guidance. Have JLCPCB accept the artwork proof; fine labels may print poorly. This tradeoff preserves the appearance explicitly requested by the owner.
 
-## Assembly and use
-L2 component values and firmware assignments remain valid in L3. SDA GPIO5, SCL GPIO43 and PWM3 GPIO39; explicitly configure I2C because GPIO6 is PWM4. Fit C17=220pF C0G and C20=2.2nF X7R 50V. Use insulating M2 hardware. The L2-named purchase BOM applies unchanged to the L3 component set; sourcing candidates still need the confirmations marked in the BOM.
+## Fabrication
+Upload only ESP_FC_L4_PCB_ONLY_GERBERS.zip. Four layers, 40 x 40mm nominal outline, 1mm FR4, 1oz / 35um copper on ALL FOUR layers, white mask, black legend and ENIG. Standard through vias, minimum drill 0.20mm. There are 113 plated via holes and four 2.10mm NPTH mounting holes. The ZIP has 11 Gerbers, two separate drill files and order notes; no component or purchasing data.
 
-Bare-board fabrication checks do not establish flight readiness. First power with current limiting, then validate supply behavior, IMU, video and motor outputs on the assembled prototype. Confirm the fabricator's order proof before production.
+## Assembly and firmware
+Component values and firmware assignments are unchanged: SDA GPIO5, SCL GPIO43, PWM3 GPIO39; GPIO6 is PWM4. The L2-named purchase BOM applies unchanged. C17 is fitted at 220pF C0G; C20 is 2.2nF X7R 50V. Use insulating M2 hardware. Read the firmware pin map and assembly notes. Bench-test the assembled prototype; layout checks do not establish flight readiness.

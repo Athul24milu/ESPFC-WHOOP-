@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-11-11T01:47:32",
+    "date": "2026-11-11T02:17:45",
     "ignored_checks": [],
     "included_severities": [
         "error",
@@ -12,5 +12,696 @@
     "schematic_parity": [],
     "source": "ESP_FPV_ATHUL_IOGROUPED.kicad_pcb",
     "unconnected_items": [],
-    "violations": []
+    "violations": [
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'CAM' on f.silkscreen",
+                    "pos": {
+                        "x": 119.483309,
+                        "y": 113.206713
+                    },
+                    "uuid": "90ccbeb8-ec00-41a9-b314-9378cc3f9b56"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'CAM' on f.silkscreen",
+                    "pos": {
+                        "x": 119.483309,
+                        "y": 113.206713
+                    },
+                    "uuid": "90ccbeb8-ec00-41a9-b314-9378cc3f9b56"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '+' on f.silkscreen",
+                    "pos": {
+                        "x": 112.660987,
+                        "y": 120.382589
+                    },
+                    "uuid": "599e9883-a3ea-43cb-992b-26ba63edd97b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '+' on f.silkscreen",
+                    "pos": {
+                        "x": 112.660987,
+                        "y": 120.382589
+                    },
+                    "uuid": "599e9883-a3ea-43cb-992b-26ba63edd97b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'VTX' on f.silkscreen",
+                    "pos": {
+                        "x": 114.994439,
+                        "y": 118.049137
+                    },
+                    "uuid": "807c5ef0-d300-4420-9b41-3ad4738162c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'VTX' on f.silkscreen",
+                    "pos": {
+                        "x": 114.994439,
+                        "y": 118.049137
+                    },
+                    "uuid": "807c5ef0-d300-4420-9b41-3ad4738162c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'SA' on f.silkscreen",
+                    "pos": {
+                        "x": 116.161165,
+                        "y": 116.882411
+                    },
+                    "uuid": "04ade5b9-a141-4361-b836-02b1e24069e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'SA' on f.silkscreen",
+                    "pos": {
+                        "x": 116.161165,
+                        "y": 116.882411
+                    },
+                    "uuid": "04ade5b9-a141-4361-b836-02b1e24069e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '+' on f.silkscreen",
+                    "pos": {
+                        "x": 117.399857,
+                        "y": 115.540165
+                    },
+                    "uuid": "a0fe823b-4822-484e-838f-841ef1f5eeb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '+' on f.silkscreen",
+                    "pos": {
+                        "x": 117.399857,
+                        "y": 115.540165
+                    },
+                    "uuid": "a0fe823b-4822-484e-838f-841ef1f5eeb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '+' on f.silkscreen",
+                    "pos": {
+                        "x": 135.183593,
+                        "y": 132.152149
+                    },
+                    "uuid": "b5852653-3285-4bf7-a225-80f88bae6868"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '+' on f.silkscreen",
+                    "pos": {
+                        "x": 135.183593,
+                        "y": 132.152149
+                    },
+                    "uuid": "b5852653-3285-4bf7-a225-80f88bae6868"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'RX' on f.silkscreen",
+                    "pos": {
+                        "x": 137.179913,
+                        "y": 130.405829
+                    },
+                    "uuid": "de909b82-85bc-441e-89d7-5481f2e04520"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'RX' on f.silkscreen",
+                    "pos": {
+                        "x": 137.179913,
+                        "y": 130.405829
+                    },
+                    "uuid": "de909b82-85bc-441e-89d7-5481f2e04520"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'TX' on f.silkscreen",
+                    "pos": {
+                        "x": 138.115573,
+                        "y": 129.345169
+                    },
+                    "uuid": "7407d942-88c5-46e8-8c2d-d863c02c7bc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'TX' on f.silkscreen",
+                    "pos": {
+                        "x": 138.115573,
+                        "y": 129.345169
+                    },
+                    "uuid": "7407d942-88c5-46e8-8c2d-d863c02c7bc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '1S' on f.silkscreen",
+                    "pos": {
+                        "x": 115.442661,
+                        "y": 132.379447
+                    },
+                    "uuid": "ba7737cf-b8c1-4090-883a-b6320e871d7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '1S' on f.silkscreen",
+                    "pos": {
+                        "x": 115.442661,
+                        "y": 132.379447
+                    },
+                    "uuid": "ba7737cf-b8c1-4090-883a-b6320e871d7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '+' on f.silkscreen",
+                    "pos": {
+                        "x": 116.26723,
+                        "y": 133.268356
+                    },
+                    "uuid": "7211c8bd-3389-433c-bcc7-bad236c842da"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '+' on f.silkscreen",
+                    "pos": {
+                        "x": 116.26723,
+                        "y": 133.268356
+                    },
+                    "uuid": "7211c8bd-3389-433c-bcc7-bad236c842da"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'ESP FPV' on f.silkscreen",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 126.0
+                    },
+                    "uuid": "b409965a-18c6-44c7-9857-e0f755e60931"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'ESP FPV' on f.silkscreen",
+                    "pos": {
+                        "x": 109.5,
+                        "y": 126.0
+                    },
+                    "uuid": "b409965a-18c6-44c7-9857-e0f755e60931"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'ATHUL' on f.silkscreen",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 126.5
+                    },
+                    "uuid": "1257c578-efd1-4dc8-ba6e-abdc9d5ded38"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'ATHUL' on f.silkscreen",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 126.5
+                    },
+                    "uuid": "1257c578-efd1-4dc8-ba6e-abdc9d5ded38"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '-' on f.silkscreen",
+                    "pos": {
+                        "x": 113.827713,
+                        "y": 119.215863
+                    },
+                    "uuid": "42cf3b65-971a-4443-99bc-b836ec65f5b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '-' on f.silkscreen",
+                    "pos": {
+                        "x": 118.441583,
+                        "y": 114.248439
+                    },
+                    "uuid": "ea9764df-800a-4e2a-8908-bb4763407ab8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '-' on f.silkscreen",
+                    "pos": {
+                        "x": 135.994253,
+                        "y": 131.466489
+                    },
+                    "uuid": "bdc118b8-8237-476a-9fe2-685666a7daa2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '-' on f.silkscreen",
+                    "pos": {
+                        "x": 114.428752,
+                        "y": 131.554878
+                    },
+                    "uuid": "82526b0e-e16c-48d3-a5d6-02c552dcdc29"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '+' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.282128,
+                        "y": 120.757358
+                    },
+                    "uuid": "1f235b37-8e56-49b4-834d-b2200dc93630"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '+' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.282128,
+                        "y": 120.757358
+                    },
+                    "uuid": "1f235b37-8e56-49b4-834d-b2200dc93630"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '+' on B.Silkscreen",
+                    "pos": {
+                        "x": 136.82636,
+                        "y": 130.900803
+                    },
+                    "uuid": "991da913-f0f8-4cff-9dfd-486833eef024"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '+' on B.Silkscreen",
+                    "pos": {
+                        "x": 136.82636,
+                        "y": 130.900803
+                    },
+                    "uuid": "991da913-f0f8-4cff-9dfd-486833eef024"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '+' on B.Silkscreen",
+                    "pos": {
+                        "x": 114.14591,
+                        "y": 131.342745
+                    },
+                    "uuid": "e1bd7d69-bb40-433c-be6d-e95511478cb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '+' on B.Silkscreen",
+                    "pos": {
+                        "x": 114.14591,
+                        "y": 131.342745
+                    },
+                    "uuid": "e1bd7d69-bb40-433c-be6d-e95511478cb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '+' on B.Silkscreen",
+                    "pos": {
+                        "x": 138.965357,
+                        "y": 121.195763
+                    },
+                    "uuid": "b21cec0c-c391-4010-aff9-296c503fa09c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '+' on B.Silkscreen",
+                    "pos": {
+                        "x": 138.965357,
+                        "y": 121.195763
+                    },
+                    "uuid": "b21cec0c-c391-4010-aff9-296c503fa09c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '2' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.660985,
+                        "y": 120.156317
+                    },
+                    "uuid": "ce21c71b-569b-4f7f-8b6c-ce3a476b057e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '2' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.660985,
+                        "y": 120.156317
+                    },
+                    "uuid": "ce21c71b-569b-4f7f-8b6c-ce3a476b057e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '3' on B.Silkscreen",
+                    "pos": {
+                        "x": 137.445078,
+                        "y": 129.539623
+                    },
+                    "uuid": "719b55be-d7f6-44df-a532-5b70e6af4ca5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '3' on B.Silkscreen",
+                    "pos": {
+                        "x": 137.445078,
+                        "y": 129.539623
+                    },
+                    "uuid": "719b55be-d7f6-44df-a532-5b70e6af4ca5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '-' on B.Silkscreen",
+                    "pos": {
+                        "x": 113.262026,
+                        "y": 118.90246
+                    },
+                    "uuid": "c77e9a43-af0b-4e6f-beb8-5a93a8b7c99f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '-' on B.Silkscreen",
+                    "pos": {
+                        "x": 138.806258,
+                        "y": 128.920905
+                    },
+                    "uuid": "23106b33-592e-49e0-aff8-bef665e04866"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '-' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.166012,
+                        "y": 129.362847
+                    },
+                    "uuid": "e5a10c4e-b443-4381-adcc-944aad814606"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 1.0000 mm; actual 0.8000 mm)",
+            "items": [
+                {
+                    "description": "PCB text '-' on B.Silkscreen",
+                    "pos": {
+                        "x": 136.985459,
+                        "y": 119.215865
+                    },
+                    "uuid": "64fd4f4c-b1c2-4c19-b988-30ece54190af"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '1' on B.Silkscreen",
+                    "pos": {
+                        "x": 113.788677,
+                        "y": 129.72008
+                    },
+                    "uuid": "f9be07a9-d881-49a8-8b9e-4455bac751e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text '4' on B.Silkscreen",
+                    "pos": {
+                        "x": 137.592692,
+                        "y": 120.58853
+                    },
+                    "uuid": "06d647d5-e8d3-489a-acb0-69cbf50f061a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        }
+    ]
 }

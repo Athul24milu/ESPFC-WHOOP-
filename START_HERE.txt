@@ -1,8 +1,8 @@
-ESP FC FINAL FIXED - current revision L3, 11 November 2026
+ESP FC FINAL FIXED - current revision L4, 11 November 2026
 
-UPLOAD ONLY: 01_JLCPCB_UPLOAD/ESP_FC_L3_PCB_ONLY_GERBERS.zip
+UPLOAD ONLY: 01_JLCPCB_UPLOAD/ESP_FC_L4_PCB_ONLY_GERBERS.zip
 
-ESP FPV / ATHUL L3 - PCB-only fabrication data - 11 November 2026
+ESP FPV / ATHUL L4 - PCB-only fabrication data - 11 November 2026
 4 copper layers: F.Cu, In1.Cu, In2.Cu, B.Cu.
 40 x 40 mm curved diamond outline. Use Edge.Cuts centerline.
 1.00 mm FR4; 35 um / 1 oz copper on ALL FOUR layers, including both inner layers.
@@ -10,12 +10,12 @@ White solder mask, black legend, ENIG. Standard through vias; minimum drill 0.20
 113 plated via holes; 4 NPTH mounting holes, diameter 2.10 mm.
 Separate PTH / NPTH Excellon drills, metric absolute origin, shared with Gerbers.
 11 RS-274X Gerber layers. No BOM, placement, schematic or component/netlist attributes.
-L3: nine via approaches corrected; production-size stroke-font legends; 0 errors, 0 warnings, 0 unconnected items in KiCad DRC.
-Short printed labels: B=battery; C=camera video; V=video out; S=SmartAudio; R=FC RX; T=FC TX. Polarity marks are 0.15 mm stroke graphic symbols.
+L4: original L2 silkscreen text and markings restored exactly; all L3 corrected tracks/vias retained. KiCad: 0 errors, 46 text warnings, 0 unconnected items.
+Original full connector names, font sizes, orientations, symbols, separators and logo are restored. Some original text is below standard print guidance; request fabricator acceptance of the artwork proof.
 Use insulating M2 mounting hardware. Have the fabricator review its manufacturing proof.
 
-Validation: 0 electrical DRC errors, 0 warnings, 0 unconnected, 0 parity issues, 0 ERC violations. Read 02_Guides/MANUFACTURING_README.md and FIRMWARE_PINMAP.md.
+Validation: 0 electrical DRC errors, 46 original text warnings, 0 unconnected, 0 parity issues, 0 ERC violations. Read 02_Guides/MANUFACTURING_README.md and FIRMWARE_PINMAP.md.
 
-The L2-named purchase BOM remains valid: component values, footprints and pin assignments are unchanged in L3. Search-only purchase links and substitute candidates are NOT automatically approved or confirmed in stock.
+The L2-named purchase BOM remains valid: component values, footprints and pin assignments are unchanged in L4. Search-only purchase links and substitute candidates are NOT automatically approved or confirmed in stock.
 
-The L3 user manual and component map replace their older L2 versions. The electronics still require prototype bring-up.
+The L4 user manual and component map replace their older L2 versions. The electronics still require prototype bring-up.

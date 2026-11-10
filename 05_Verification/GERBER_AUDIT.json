@@ -27,14 +27,14 @@
       ]
     },
     "top silk": {
-      "objects": 1117,
+      "objects": 1016,
       "bounds_mm": [
         [
-          108.879819,
-          -133.52335599999998
+          109.076529,
+          -133.980757
         ],
         [
-          138.51217799999998,
+          138.670101,
           -108.928571
         ]
       ]
@@ -79,14 +79,14 @@
       ]
     },
     "bottom silk": {
-      "objects": 85,
+      "objects": 66,
       "bounds_mm": [
         [
           108.704787,
           -134.973666
         ],
         [
-          139.22035699999998,
+          139.517403,
           -108.393744
         ]
       ]
@@ -169,21 +169,21 @@
   "bottom_mask_dark_fraction_in_die": 0.0,
   "bottom_paste_dark_fraction_in_die": 0.0,
   "inner_2_copper_dark_fraction_in_die": 1.0,
-  "native_pcb_sha256": "e35621e67d647e86b68521268db11ad04fc173ab6f83eec627cd4a64396d9791",
+  "native_pcb_sha256": "af7cb0aae2cbf8d6c4141db698eb482e89461ee3d1e4c81128f08922d5691213",
   "export_sha256": {
-    "ESP_FPV_ATHUL_IOGROUPED-B_Cu.gbl": "529a82ffe39edd1a010f79bfd2f18889a6809a4e9bdc1d25b46e04d561061a4c",
-    "ESP_FPV_ATHUL_IOGROUPED-B_Mask.gbs": "c02f2268c9bee25fa34470ca835547e34ae65f719780af15b90f73e879f2e6af",
-    "ESP_FPV_ATHUL_IOGROUPED-B_Paste.gbp": "03996663c826909d5eeaf61439e072a8205fe20b06458f7e5a9eec61e7654cc7",
-    "ESP_FPV_ATHUL_IOGROUPED-B_Silkscreen.gbo": "574a17b36519d6ee3d2f5f41856fab49c5629046a5da0e6ec60b6d4ba6ffa06d",
-    "ESP_FPV_ATHUL_IOGROUPED-Edge_Cuts.gm1": "6037bf69642f9fa94f74bdd2d274b7bb4c89014dd98c0cd1b3641ca2cd019222",
-    "ESP_FPV_ATHUL_IOGROUPED-F_Cu.gtl": "176f526784c88d79d4732209beb6f0235d39bdc4d15545b765d4142eb8237a28",
-    "ESP_FPV_ATHUL_IOGROUPED-F_Mask.gts": "62381ea34d65f11be20b64e502be1bfdc48024accb6427390f3aaec301bc85be",
-    "ESP_FPV_ATHUL_IOGROUPED-F_Paste.gtp": "6ecda108459afe63f87c25275a0d747f0e6be686654051197338fa4d72907d9c",
-    "ESP_FPV_ATHUL_IOGROUPED-f_silkscreen.gto": "8456119ff50f0134c814b978a57bc7a0a34c576070151ba2a24032c3041eabed",
-    "ESP_FPV_ATHUL_IOGROUPED-In1_Cu.g1": "d069bc6700a77f28df57e6ac3ee4f0b2344f639dd7d76cbb20ef332ca80d6f7a",
-    "ESP_FPV_ATHUL_IOGROUPED-In2_Cu.g2": "4b4d80bb7f66520f5bfa1b7730462f45902e60e1aae76f759774b8bc335f9bca",
-    "ESP_FPV_ATHUL_IOGROUPED-NPTH.drl": "6f28a3eef1cceba802199a7a82117efc96abbae21759bbba15046231a74e90b1",
-    "ESP_FPV_ATHUL_IOGROUPED-PTH.drl": "bed7ab2ad1bc031828db1fe8f0c5285dc98a12976100c61ba23893e0cbe1784d",
-    "PCB_ORDER_NOTES.txt": "5a3a780d47e993ebf6f3babdfb51970719d5beec7302d3a04232eb89fdd63e28"
+    "ESP_FPV_ATHUL_IOGROUPED-B_Cu.gbl": "e0294632ede570fc230853ae5cb8c9f8790298ef2eefbbd60f82a75bc0e6eca4",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Mask.gbs": "872912db9ef959fa1e302b47f60b72ed22beea0b310601faa9e70add5bacdba8",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Paste.gbp": "e109caa14dc8642f38a830717360ad23c01e8343035b2eeb6a423c825a78ab1c",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Silkscreen.gbo": "2c7d14d9189a98b2b66436d347c4c5d72dbca182faaad7d0208066b3c1c1e8e3",
+    "ESP_FPV_ATHUL_IOGROUPED-Edge_Cuts.gm1": "10a74dcfb106f3627615c8cff9b9ad3f876b5ffaf48fe164b1aafbd37147e222",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Cu.gtl": "c0ee828e07478e0138589a5cf019a5aee0f412d6fe8884691d444ff609750d13",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Mask.gts": "bc69dbbaaa808c0b080195d9bdb99ba0b5ef227c2ea51b620842adc3509610a7",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Paste.gtp": "565fe614323f2ceb005e11d599b9d2dff77fb38d51ff20eefba916856c1e1af0",
+    "ESP_FPV_ATHUL_IOGROUPED-f_silkscreen.gto": "f56fb0ea90766525093de296a6081467b74bc981f2941dbbd32e3072663704b9",
+    "ESP_FPV_ATHUL_IOGROUPED-In1_Cu.g1": "31ddb2eea3287d39937b3958b4ff3a26791b2814db2c58dbad7bdfc3947b9117",
+    "ESP_FPV_ATHUL_IOGROUPED-In2_Cu.g2": "22d0b9de853066bd224b8272a09307d99f0329a6179acb08c8ab153e88daa130",
+    "ESP_FPV_ATHUL_IOGROUPED-NPTH.drl": "7827d8fbe0f38fd8eacf07162df166ef904aa51c3d009d71e6fe9986ec8a62dd",
+    "ESP_FPV_ATHUL_IOGROUPED-PTH.drl": "5ca0b8f73926e9c527a523d05af78b9432cbbdb2519b6d9178e9e5a4e74273f8",
+    "PCB_ORDER_NOTES.txt": "93bcace587f92781e03b1ebad97aa48f15355565f41432dd795981d4087ef9e6"
   }
 }

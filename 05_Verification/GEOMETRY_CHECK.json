@@ -3,7 +3,7 @@
   "changed_land_patterns": [],
   "moved_footprints": [],
   "reference_artwork_objects": 1023,
-  "changed_artwork_objects": 76,
+  "changed_artwork_objects": 0,
   "mpu_exposed_die_copper_hits": [],
   "u2_thermal_vias_in_ep": [
     [
@@ -653,5 +653,7 @@
       -107.5714,
       2.1
     ]
-  ]
+  ],
+  "artwork_comparison": "Geometry, text, layer and count compared with original L2; UUIDs reissued by KiCad duplication",
+  "copper_tracks_identical_to_l3": true
 }
