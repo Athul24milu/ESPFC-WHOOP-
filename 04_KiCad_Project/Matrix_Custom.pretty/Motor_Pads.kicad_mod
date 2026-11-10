@@ -1,0 +1,81 @@
+(footprint "Motor_Pads"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "JM2"
+		(at 0.212132 -1.626346 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e164c9ce-e3bd-4602-a09b-28aace9e773c")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "MOTOR 2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f928030e-32ae-477b-bff8-e4646b2bcf97")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1643b322-b0bc-42bd-bfdb-6eccccf303a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f709ffb-1129-4fa9-a2cc-2c2edf665e7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 2.199999 -1.25) (xy -2.199999 -1.25) (xy -2.199999 1.25) (xy 2.199999 1.25)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d4c3740-ffc1-427d-aa04-82dd9e27ff4e")
+	)
+	(pad "1" smd roundrect
+		(at -1.099999 0)
+		(size 1.7 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "4064b833-2692-413d-a7c7-c444cab164a2")
+	)
+	(pad "2" smd roundrect
+		(at 1.099999 0)
+		(size 1.7 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "cfad0045-50e5-4eb1-9049-085b76346fa9")
+	)
+	(embedded_fonts no)
+)

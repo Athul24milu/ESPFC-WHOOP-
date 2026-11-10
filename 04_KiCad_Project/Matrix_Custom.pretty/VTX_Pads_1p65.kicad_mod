@@ -1,0 +1,97 @@
+(footprint "VTX_Pads_1p65"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f827648-77c7-4078-a840-6b8afcf164c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "AIR VTX"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5d28bd4-9820-42ef-b0c6-99e1e92d7006")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba3c3d79-e4b0-4ddd-a5f5-18a7605ca491")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b352b7f1-a288-45b1-b6f4-b0803746f7e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -3.224999 -0.95) (xy 3.224999 -0.95) (xy 3.224999 0.95) (xy -3.224999 0.95)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2e4d07f4-7af2-4ed6-baea-da81d0e0004c")
+	)
+	(pad "1" smd roundrect
+		(at -2.475 0)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "f70d7209-756c-42aa-bf94-4cbd651202bb")
+	)
+	(pad "2" smd roundrect
+		(at -0.825 0)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6e976c99-7e74-4a4a-ab8f-bf16d427869b")
+	)
+	(pad "3" smd roundrect
+		(at 0.825 0)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "f7964790-d843-45cf-ac95-1cdecbb74e80")
+	)
+	(pad "4" smd roundrect
+		(at 2.475 0)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "594d17fe-ba91-4b31-a692-070361f8291a")
+	)
+	(embedded_fonts no)
+)

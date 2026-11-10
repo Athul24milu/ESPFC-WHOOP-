@@ -1,0 +1,1364 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (generator_version "10.0")
+  (uuid "1476f042-7199-549e-b6fe-d2baffb4c95f")
+  (paper "A3")
+  (title_block
+    (title "External I/O and mounting holes")
+    (date "2026-11-07")
+    (rev "L2 - prototype fabrication")
+    (comment 1 "Unrouted engineering draft. Verify datasheets, power and mechanics before fabrication.")
+    (comment 2 "1S brushed 720 quad / XIAO ESP32-S3 / AT7456E / external analog VTX"))
+  (lib_symbols
+    (symbol
+      "MatrixDraft:J4"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "iBUS / ELRS CRSF receiver"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Receiver_Pads_1p5"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "J4_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "J4_1_1"
+        (pin
+          power_in
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "+5V to receiver"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          power_in
+          line
+          (at -15.239999999999998 0.0 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          output
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "FC RX / receiver TX or iBUS"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          input
+          line
+          (at 15.239999999999998 0.0 180)
+          (length 2.54)
+          (name
+            "FC TX / receiver RX"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:U5"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "SN74LVC1G17DBVR"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Receiver_Buffer_SOT23_5"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "U5_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "U5_1_1"
+        (pin
+          passive
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          input
+          line
+          (at -15.239999999999998 0.0 0)
+          (length 2.54)
+          (name
+            "A / receiver input (5.5V tolerant)"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          power_in
+          line
+          (at -15.239999999999998 -2.54 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          output
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "Y / 3.3V UART RX"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          power_in
+          line
+          (at 15.239999999999998 0.0 180)
+          (length 2.54)
+          (name
+            "VCC"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:C19"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100nF"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:C_0805_2012Metric_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "C19_0_1"
+        (polyline
+          (pts
+            (xy -2.5400 0.0000)
+            (xy -0.6350 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0.6350 0.0000)
+            (xy 2.5400 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.6350 -1.8000)
+            (xy -0.6350 1.8000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0.6350 -1.8000)
+            (xy 0.6350 1.8000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "C19_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:R20"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100k"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R20_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R20_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:H1"
+      (pin_names
+        (offset 0)
+        (hide yes))
+      (exclude_from_sim yes)
+      (in_bom no)
+      (on_board yes)
+      (property
+        "Reference"
+        "H"
+        (at 0 5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "Mounting hole 2.1mm"
+        (at 0 7.62 0)
+        (effects
+          (font
+            (size 1 1))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Hole_2p1mm_3p6Head"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1))
+          (hide yes)))
+      (symbol
+        "H1_0_1"
+        (circle
+          (center 0 0)
+          (radius 2.54)
+          (stroke
+            (width .254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "H1_1_1"))
+    (symbol
+      "MatrixDraft:H2"
+      (pin_names
+        (offset 0)
+        (hide yes))
+      (exclude_from_sim yes)
+      (in_bom no)
+      (on_board yes)
+      (property
+        "Reference"
+        "H"
+        (at 0 5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "Mounting hole 2.1mm"
+        (at 0 7.62 0)
+        (effects
+          (font
+            (size 1 1))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Hole_2p1mm_3p6Head"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1))
+          (hide yes)))
+      (symbol
+        "H2_0_1"
+        (circle
+          (center 0 0)
+          (radius 2.54)
+          (stroke
+            (width .254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "H2_1_1"))
+    (symbol
+      "MatrixDraft:H3"
+      (pin_names
+        (offset 0)
+        (hide yes))
+      (exclude_from_sim yes)
+      (in_bom no)
+      (on_board yes)
+      (property
+        "Reference"
+        "H"
+        (at 0 5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "Mounting hole 2.1mm"
+        (at 0 7.62 0)
+        (effects
+          (font
+            (size 1 1))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Hole_2p1mm_3p6Head"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1))
+          (hide yes)))
+      (symbol
+        "H3_0_1"
+        (circle
+          (center 0 0)
+          (radius 2.54)
+          (stroke
+            (width .254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "H3_1_1"))
+    (symbol
+      "MatrixDraft:H4"
+      (pin_names
+        (offset 0)
+        (hide yes))
+      (exclude_from_sim yes)
+      (in_bom no)
+      (on_board yes)
+      (property
+        "Reference"
+        "H"
+        (at 0 5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "Mounting hole 2.1mm"
+        (at 0 7.62 0)
+        (effects
+          (font
+            (size 1 1))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Hole_2p1mm_3p6Head"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1 1))
+          (hide yes)))
+      (symbol
+        "H4_0_1"
+        (circle
+          (center 0 0)
+          (radius 2.54)
+          (stroke
+            (width .254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "H4_1_1")))
+  (text
+    "EXTERNAL SOLDER CONNECTIONS"
+    (at 15.2400 15.2400 0)
+    (effects
+      (font
+        (size 2.54 2.54))
+      (justify left top))
+    (uuid "58e88eb1-a4fa-5ee5-b5a3-40e6d94187e2"))
+  (text
+    "Pads are solder-wire connections, not fitted plug connectors."
+    (at 15.2400 25.4000 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "55a2d565-1cba-58f1-98f1-6b088a9a86cd"))
+  (text
+    "External VTX and camera power ratings must match the final supply."
+    (at 15.2400 30.4800 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "d66acae2-e9a6-54e8-a6c5-aec30c7611fa"))
+  (symbol
+    (lib_id "MatrixDraft:J4")
+    (at 76.2000 68.5800 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "a6bd88ad-00dd-57d2-8083-b122bf2aad4e")
+    (property
+      "Reference"
+      "J4"
+      (at 76.2000 58.4200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "iBUS / ELRS CRSF receiver"
+      (at 76.2000 60.9600 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Receiver_Pads_1p5"
+      (at 76.2000 68.5800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 76.2000 68.5800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "cfcf7f5f-9ff9-5350-8e1c-07f5cdc5aade"))
+    (pin
+      "2"
+      (uuid "40672dce-4afc-5cce-8654-79440de57d0a"))
+    (pin
+      "3"
+      (uuid "ee82d545-7b1f-5bf9-93c4-91f8ac4289c9"))
+    (pin
+      "4"
+      (uuid "971b0650-7ccd-59a6-bf0f-bf1091a92a8d"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520"
+          (reference "J4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 60.9600 66.0400)
+      (xy 53.3400 66.0400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ec8c0a27-7e2b-5fc1-9ea5-8aa9e589a45f"))
+  (global_label
+    "+5V"
+    (shape passive)
+    (at 53.3400 66.0400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "274120be-b63c-5613-b0a7-1bae3a10d834")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 53.3400 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 60.9600 68.5800)
+      (xy 53.3400 68.5800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "06082364-db56-5c89-82e7-c90fdba2f015"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 53.3400 68.5800 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "04d8d15a-8402-55d4-93bc-a658bf150c7d")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 53.3400 68.5800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 91.4400 66.0400)
+      (xy 99.0600 66.0400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "acfe3214-15d0-5095-bcb4-52d9b143722c"))
+  (global_label
+    "RX_EXT"
+    (shape passive)
+    (at 99.0600 66.0400 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "77e641be-1911-54ab-9194-7a8e44cc3526")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 99.0600 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 91.4400 68.5800)
+      (xy 99.0600 68.5800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ba0ad3b3-1362-5a05-bbc8-6ae9dfa98af5"))
+  (global_label
+    "UART_TX41"
+    (shape passive)
+    (at 99.0600 68.5800 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "9e1aa6fb-d544-591d-994b-235e28e57e2d")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 99.0600 68.5800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:U5")
+    (at 76.2000 99.0600 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4703c687-b9da-5248-89e0-4774b0302d60")
+    (property
+      "Reference"
+      "U5"
+      (at 76.2000 88.9000 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "SN74LVC1G17DBVR"
+      (at 76.2000 91.4400 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Receiver_Buffer_SOT23_5"
+      (at 76.2000 99.0600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+      (at 76.2000 99.0600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "0e1a5dec-f045-53a5-8a4d-e378c5955155"))
+    (pin
+      "2"
+      (uuid "fc2e1222-de5a-5e31-a8f4-642e420b460c"))
+    (pin
+      "3"
+      (uuid "df33ee6c-0914-550a-91c2-b1f2f1ab2a6c"))
+    (pin
+      "4"
+      (uuid "8b480650-f5d7-544a-92a0-6821ea833ca3"))
+    (pin
+      "5"
+      (uuid "b015477d-2870-5e50-af07-fc9c76d5d0da"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520"
+          (reference "U5")
+          (unit 1)))))
+  (no_connect
+    (at 60.9600 96.5200)
+    (uuid "3b818ed7-54a7-5cf8-b93a-1552e944c20d"))
+  (wire
+    (pts
+      (xy 60.9600 99.0600)
+      (xy 53.3400 99.0600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b18c5fa9-c4b5-56dc-bf5f-6e6a0d1bf222"))
+  (global_label
+    "RX_EXT"
+    (shape passive)
+    (at 53.3400 99.0600 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "5b4e4cc9-a630-57fe-aabf-4fac526c2611")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 53.3400 99.0600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 60.9600 101.6000)
+      (xy 53.3400 101.6000))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8e816508-33d7-51bc-a452-8415499fcb05"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 53.3400 101.6000 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "fe7af527-952f-5e2c-bcbe-78b5b7dcb79f")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 53.3400 101.6000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 91.4400 96.5200)
+      (xy 99.0600 96.5200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "caa93192-f3a5-5508-ab6c-1ef16456b7c7"))
+  (global_label
+    "UART_RX40"
+    (shape passive)
+    (at 99.0600 96.5200 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "f999a5cc-1102-5604-b204-d3b36b217989")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 99.0600 96.5200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 91.4400 99.0600)
+      (xy 99.0600 99.0600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1ca22368-98ca-5c93-a509-8c701d2cafd5"))
+  (global_label
+    "+3V3"
+    (shape passive)
+    (at 99.0600 99.0600 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "80cdec09-1a5b-5d94-8581-db3349bbab4f")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 99.0600 99.0600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:C19")
+    (at 195.5800 66.0400 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "2d4ea02d-0181-5c9d-b41b-4698384357cf")
+    (property
+      "Reference"
+      "C19"
+      (at 195.5800 62.2300 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 195.5800 64.7700 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 195.5800 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 195.5800 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "b41e154b-4800-57b8-a93a-b290fd236c39"))
+    (pin
+      "2"
+      (uuid "ed90d92e-baf6-597a-a8aa-3172d17ed9dc"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520"
+          (reference "C19")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 190.5000 66.0400)
+      (xy 182.8800 66.0400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "41818118-4b48-5519-82e0-221420c6551b"))
+  (global_label
+    "+3V3"
+    (shape passive)
+    (at 182.8800 66.0400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "21818cce-cfb7-5225-92bb-4d6eebc8a770")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 182.8800 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 200.6600 66.0400)
+      (xy 208.2800 66.0400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "604523b6-205b-5d41-8279-5b0e4e7c85c7"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 208.2800 66.0400 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "33fb9ecc-e8a3-5194-8c97-933c2ceddd22")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 208.2800 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:R20")
+    (at 271.7800 66.0400 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "892e00b0-233f-573d-8475-4676c9630d5d")
+    (property
+      "Reference"
+      "R20"
+      (at 271.7800 62.2300 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 271.7800 64.7700 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 271.7800 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 271.7800 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "a19ac51d-8e45-5972-a8b5-33a806905d66"))
+    (pin
+      "2"
+      (uuid "951efaaa-7e86-5e85-881e-3449b6b31e5e"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520"
+          (reference "R20")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 266.7000 66.0400)
+      (xy 259.0800 66.0400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "24d5186e-8055-5fa4-94bb-6f76b2b77dc5"))
+  (global_label
+    "+3V3"
+    (shape passive)
+    (at 259.0800 66.0400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "b928457b-8ea3-5800-97de-4a92aa208964")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 259.0800 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.8600 66.0400)
+      (xy 284.4800 66.0400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e7a8b1d7-3c1c-5929-90c2-e59fd0120f74"))
+  (global_label
+    "RX_EXT"
+    (shape passive)
+    (at 284.4800 66.0400 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "84f14dc0-bd4c-5787-b95b-0b3c170e0688")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 284.4800 66.0400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:H1")
+    (at 76.2 175.26 0)
+    (unit 1)
+    (exclude_from_sim yes)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "13470732-bf29-4230-a075-0cc8dded0bbb")
+    (property
+      "Reference"
+      "H1"
+      (at 76.2 170.17999999999998 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "Mounting hole 2.1mm"
+      (at 76.2 180.34 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Hole_2p1mm_3p6Head"
+      (at 76.2 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 76.2 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520"
+          (reference "H1")
+          (unit 1)))))
+  (symbol
+    (lib_id "MatrixDraft:H2")
+    (at 127.0 175.26 0)
+    (unit 1)
+    (exclude_from_sim yes)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "650903c6-5740-448d-b34d-cafa113d5371")
+    (property
+      "Reference"
+      "H2"
+      (at 127.0 170.17999999999998 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "Mounting hole 2.1mm"
+      (at 127.0 180.34 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Hole_2p1mm_3p6Head"
+      (at 127.0 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 127.0 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520"
+          (reference "H2")
+          (unit 1)))))
+  (symbol
+    (lib_id "MatrixDraft:H3")
+    (at 177.8 175.26 0)
+    (unit 1)
+    (exclude_from_sim yes)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "05a33d6c-6c9a-45dd-8b29-c589646c22bd")
+    (property
+      "Reference"
+      "H3"
+      (at 177.8 170.17999999999998 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "Mounting hole 2.1mm"
+      (at 177.8 180.34 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Hole_2p1mm_3p6Head"
+      (at 177.8 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 177.8 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520"
+          (reference "H3")
+          (unit 1)))))
+  (symbol
+    (lib_id "MatrixDraft:H4")
+    (at 228.59999999999997 175.26 0)
+    (unit 1)
+    (exclude_from_sim yes)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "61a5dfb7-d7cf-45a3-aeb4-20aa7ace8a05")
+    (property
+      "Reference"
+      "H4"
+      (at 228.59999999999997 170.17999999999998 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "Mounting hole 2.1mm"
+      (at 228.59999999999997 180.34 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Hole_2p1mm_3p6Head"
+      (at 228.59999999999997 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 228.59999999999997 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520"
+          (reference "H4")
+          (unit 1))))))

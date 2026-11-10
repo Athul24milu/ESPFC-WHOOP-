@@ -1,0 +1,89 @@
+(footprint "Direct_Camera_Pads"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0118053b-fcd1-4377-83a1-b8f69ee01d9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "CAMERA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79de18d2-819c-41ff-838f-f0d8d395e39a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0020dc9-efb5-4adf-aab4-3e842b5ea996")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "557f9e34-dd97-493c-98a9-f4211c9e12ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -2 -0.85) (xy 2 -0.85) (xy 2 0.85) (xy -2 0.85)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "05a02432-4ab7-4bda-a09e-8b8a06bf0729")
+	)
+	(pad "1" smd roundrect
+		(at -1.399999 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "bc2cfc89-8565-41a7-87a6-90724f24dddc")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "75fd4d07-6531-4e7c-8615-e9c27111de35")
+	)
+	(pad "3" smd roundrect
+		(at 1.399999 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "d891fe71-29c4-4856-b884-f1b19eb0500f")
+	)
+	(embedded_fonts no)
+)

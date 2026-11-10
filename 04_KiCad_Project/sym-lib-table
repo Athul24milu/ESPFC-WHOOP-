@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "MatrixDraft") (type "KiCad") (uri "${KIPRJMOD}/MatrixDraft.kicad_sym") (options "") (descr "Pin-checked project symbols")))

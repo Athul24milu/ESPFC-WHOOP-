@@ -1,0 +1,184 @@
+(footprint "L_Coilcraft_XxL4030_Compact"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "L_Coilcraft_XxL4030 https://www.coilcraft.com/pdfs/xfl4030.pdf")
+	(tags "L Coilcraft XxL4030")
+	(property "Reference" "L1"
+		(at 2.5 -0.85 270)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8f7d6a3e-a3d0-427f-b1e7-4f63fb8e881c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "1uH XEL4030-102MEC"
+		(at 0 3 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e50c70fc-d855-4d59-8c30-ec4eb148b784")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64f1458c-7f98-46c1-add3-0d1b911116bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78cd0b65-44e4-4bf3-bb4e-0c2e5a123762")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.159999 -2.159999)
+		(end 2.159999 -2.159999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e0a153c-bf89-4b6d-a50f-f11ade61d321")
+	)
+	(fp_line
+		(start -2.159999 2.159999)
+		(end -2.159999 -2.159999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90825d93-8c90-400b-ba32-78cab7893611")
+	)
+	(fp_line
+		(start 2.159999 -2.159999)
+		(end 2.159999 2.159999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3faf67b4-d69a-4fed-89ad-03f3e2675cad")
+	)
+	(fp_line
+		(start 2.159999 2.159999)
+		(end -2.159999 2.159999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66cd4c05-de8a-4543-ad69-3e008792d6c1")
+	)
+	(fp_line
+		(start -2.154 -2.154)
+		(end 2.154 -2.154)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "722c6783-18b5-4018-93aa-8ffb90a25156")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80597647-3d0f-4377-8312-d6551a66f23c")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2b3b345-ccc9-4c1e-91ea-0ba01f2e3bfb")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eda53739-8aef-4ec1-8404-d8c81d139ca4")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0da0ac4-2183-4473-8ac2-406316fbe602")
+	)
+	(fp_line
+		(start 2.154 2.154)
+		(end -2.154 2.154)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a3e26cc-0c43-4247-b3be-e8e211f95844")
+	)
+	(pad "1" smd rect
+		(at -1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bdf4749c-f42e-480f-8fec-91ecc8b4979b")
+	)
+	(pad "2" smd rect
+		(at 1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7bf7a7ba-3fa2-4d6a-b376-8aa3a6960502")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/XEL4030-envelope.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

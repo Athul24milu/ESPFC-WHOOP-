@@ -1,0 +1,8063 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (symbol
+    "J4"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "J"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "iBUS / ELRS CRSF receiver"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Receiver_Pads_1p5"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "J4_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "J4_1_1"
+      (pin
+        power_in
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "+5V to receiver"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "FC RX / receiver TX or iBUS"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at 15.239999999999998 0.0 180)
+        (length 2.54)
+        (name
+          "FC TX / receiver RX"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "4"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "U5"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "SN74LVC1G17DBVR"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Receiver_Buffer_SOT23_5"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "U5_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "U5_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "A / receiver input (5.5V tolerant)"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at -15.239999999999998 -2.54 0)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "Y / 3.3V UART RX"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "4"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 15.239999999999998 0.0 180)
+        (length 2.54)
+        (name
+          "VCC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "5"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C19"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C19_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C19_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R20"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R20_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R20_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "H1"
+    (pin_names
+      (offset 0)
+      (hide yes))
+    (exclude_from_sim yes)
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "H"
+      (at 0 5.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "Mounting hole 2.1mm"
+      (at 0 7.62 0)
+      (effects
+        (font
+          (size 1 1))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Hole_2p1mm_3p6Head"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1))
+        (hide yes)))
+    (symbol
+      "H1_0_1"
+      (circle
+        (center 0 0)
+        (radius 2.54)
+        (stroke
+          (width .254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol "H1_1_1"))
+  (symbol
+    "H2"
+    (pin_names
+      (offset 0)
+      (hide yes))
+    (exclude_from_sim yes)
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "H"
+      (at 0 5.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "Mounting hole 2.1mm"
+      (at 0 7.62 0)
+      (effects
+        (font
+          (size 1 1))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Hole_2p1mm_3p6Head"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1))
+        (hide yes)))
+    (symbol
+      "H2_0_1"
+      (circle
+        (center 0 0)
+        (radius 2.54)
+        (stroke
+          (width .254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol "H2_1_1"))
+  (symbol
+    "H3"
+    (pin_names
+      (offset 0)
+      (hide yes))
+    (exclude_from_sim yes)
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "H"
+      (at 0 5.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "Mounting hole 2.1mm"
+      (at 0 7.62 0)
+      (effects
+        (font
+          (size 1 1))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Hole_2p1mm_3p6Head"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1))
+        (hide yes)))
+    (symbol
+      "H3_0_1"
+      (circle
+        (center 0 0)
+        (radius 2.54)
+        (stroke
+          (width .254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol "H3_1_1"))
+  (symbol
+    "H4"
+    (pin_names
+      (offset 0)
+      (hide yes))
+    (exclude_from_sim yes)
+    (in_bom no)
+    (on_board yes)
+    (property
+      "Reference"
+      "H"
+      (at 0 5.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "Mounting hole 2.1mm"
+      (at 0 7.62 0)
+      (effects
+        (font
+          (size 1 1))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Hole_2p1mm_3p6Head"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1 1))
+        (hide yes)))
+    (symbol
+      "H4_0_1"
+      (circle
+        (center 0 0)
+        (radius 2.54)
+        (stroke
+          (width .254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol "H4_1_1"))
+  (symbol
+    "U1"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (at 0.0000 21.5900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "XIAO ESP32-S3 direct SMD"
+      (at 0.0000 19.0500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:XIAO_ESP32S3_Direct_SMD_UART"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "U1_0_1"
+      (rectangle
+        (start -25.4 17.78)
+        (end 25.4 -17.78)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "U1_1_1"
+      (pin
+        output
+        line
+        (at -27.939999999999998 15.240000000000002 0)
+        (length 2.54)
+        (name
+          "D0/GPIO1"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 12.700000000000003 0)
+        (length 2.54)
+        (name
+          "D1/GPIO2"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 10.160000000000002 0)
+        (length 2.54)
+        (name
+          "D2/GPIO3"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -27.939999999999998 7.620000000000002 0)
+        (length 2.54)
+        (name
+          "D3/GPIO4"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "4"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 5.080000000000002 0)
+        (length 2.54)
+        (name
+          "D4/GPIO5"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "5"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 2.5400000000000027 0)
+        (length 2.54)
+        (name
+          "D5/GPIO6"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "6"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 1.7763568394002505e-15 0)
+        (length 2.54)
+        (name
+          "D6/GPIO43"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "7"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 -2.539999999999999 0)
+        (length 2.54)
+        (name
+          "D7/GPIO44"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "8"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 -5.079999999999998 0)
+        (length 2.54)
+        (name
+          "D8/GPIO7"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "9"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -27.939999999999998 -7.619999999999997 0)
+        (length 2.54)
+        (name
+          "D9/GPIO8"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "10"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 -10.159999999999997 0)
+        (length 2.54)
+        (name
+          "D10/GPIO9"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "11"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_out
+        line
+        (at -27.939999999999998 -12.7 0)
+        (length 2.54)
+        (name
+          "3V3_OUT"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "12"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at -27.939999999999998 -15.239999999999998 0)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "13"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 15.240000000000002 180)
+        (length 2.54)
+        (name
+          "5V_VBUS"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "14"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at 27.939999999999998 12.700000000000003 180)
+        (length 2.54)
+        (name
+          "UART TX / GPIO41 (MTDI)"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "15"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at 27.939999999999998 10.160000000000002 180)
+        (length 2.54)
+        (name
+          "UART RX / GPIO40 (MTDO)"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "16"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at 27.939999999999998 7.620000000000002 180)
+        (length 2.54)
+        (name
+          "EN"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "17"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 5.080000000000002 180)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "18"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        bidirectional
+        line
+        (at 27.939999999999998 2.5400000000000027 180)
+        (length 2.54)
+        (name
+          "MTMS / GPIO42"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "19"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at 27.939999999999998 1.7763568394002505e-15 180)
+        (length 2.54)
+        (name
+          "MTCK / GPIO39"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "20"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        bidirectional
+        line
+        (at 27.939999999999998 -2.539999999999999 180)
+        (length 2.54)
+        (name
+          "USB_D-"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "21"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        bidirectional
+        line
+        (at 27.939999999999998 -5.079999999999998 180)
+        (length 2.54)
+        (name
+          "USB_D+"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "22"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 -7.619999999999997 180)
+        (length 2.54)
+        (name
+          "VBAT / leave isolated"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "23"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 -10.159999999999997 180)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "24"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 27.939999999999998 -12.7 180)
+        (length 2.54)
+        (name
+          "PAD / unspecified"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "25"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "D6"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "BLUE 0805"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:LED_0805_2012Metric_Compact_Assembly"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "D6_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 1.2700 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 0.0000)
+          (xy 1.2700 1.2700)
+          (xy 1.2700 -1.2700)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 -1.2700)
+          (xy -1.2700 1.2700))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "D6_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "K"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "A"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R9"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k 1%"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R9_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R9_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R10"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "47k 1%"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R10_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R10_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R11"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "1k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R11_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R11_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R19"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "470R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R19_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R19_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C1"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C1_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C1_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "U3"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (at 0.0000 13.9700 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MPU-6050"
+      (at 0.0000 11.4300 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:MPU6050_QFN24_4x4_CORRECTED"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "U3_0_1"
+      (rectangle
+        (start -25.4 16.51)
+        (end 25.4 -16.51)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "U3_1_1"
+      (pin
+        input
+        line
+        (at -27.94 13.97 0)
+        (length 2.54)
+        (name
+          "CLKIN"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at -27.94 11.43 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at -27.94 8.89 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at -27.94 6.3500000000000005 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "4"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at -27.94 3.8100000000000005 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "5"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        bidirectional
+        line
+        (at -27.94 1.2700000000000014 0)
+        (length 2.54)
+        (name
+          "AUX_DA"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "6"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        output
+        line
+        (at -27.94 -1.2699999999999996 0)
+        (length 2.54)
+        (name
+          "AUX_CL"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "7"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        power_in
+        line
+        (at -27.94 -3.8100000000000005 0)
+        (length 2.54)
+        (name
+          "VLOGIC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "8"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        input
+        line
+        (at -27.94 -6.35 0)
+        (length 2.54)
+        (name
+          "AD0"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "9"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        power_out
+        line
+        (at -27.94 -8.889999999999999 0)
+        (length 2.54)
+        (name
+          "REGOUT"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "10"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        input
+        line
+        (at -27.94 -11.429999999999998 0)
+        (length 2.54)
+        (name
+          "FSYNC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "11"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        output
+        line
+        (at -27.94 -13.97 0)
+        (length 2.54)
+        (name
+          "INT"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "12"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        power_in
+        line
+        (at 27.94 13.97 180)
+        (length 2.54)
+        (name
+          "VDD"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "13"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at 27.94 11.43 180)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "14"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at 27.94 8.89 180)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "15"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at 27.94 6.3500000000000005 180)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "16"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at 27.94 3.8100000000000005 180)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "17"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        power_in
+        line
+        (at 27.94 1.2700000000000014 180)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "18"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at 27.94 -1.2699999999999996 180)
+        (length 2.54)
+        (name
+          "RESV"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "19"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        passive
+        line
+        (at 27.94 -3.8100000000000005 180)
+        (length 2.54)
+        (name
+          "CPOUT"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "20"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at 27.94 -6.35 180)
+        (length 2.54)
+        (name
+          "RESV"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "21"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        no_connect
+        line
+        (at 27.94 -8.889999999999999 180)
+        (length 2.54)
+        (name
+          "RESV"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "22"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        input
+        line
+        (at 27.94 -11.429999999999998 180)
+        (length 2.54)
+        (name
+          "SCL"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "23"
+          (effects
+            (font
+              (size 1 1)))))
+      (pin
+        bidirectional
+        line
+        (at 27.94 -13.97 180)
+        (length 2.54)
+        (name
+          "SDA"
+          (effects
+            (font
+              (size 1 1))))
+        (number
+          "24"
+          (effects
+            (font
+              (size 1 1)))))))
+  (symbol
+    "R13"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "4.7k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R13_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R13_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C11"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C11_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C11_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C12"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF X7R 10V"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C12_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C12_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C13"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "10nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C13_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C13_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "FB1"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "FB"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "BLM21PG601SN1D 600R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:L_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "FB1_0_1"
+      (rectangle
+        (start -2.54 1.27)
+        (end 2.54 -1.27)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "FB1_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "PWR_FLAG"
+    (power)
+    (pin_names
+      (offset 0)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (property
+      "Reference"
+      "#FLG"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 0.0000 3.8100 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (symbol
+      "PWR_FLAG_0_1"
+      (polyline
+        (pts
+          (xy 0.0000 0.0000)
+          (xy 0.0000 1.2700)
+          (xy -1.2700 2.5400)
+          (xy 0.0000 3.8100)
+          (xy 1.2700 2.5400)
+          (xy 0.0000 1.2700))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "PWR_FLAG_1_1"
+      (pin
+        power_out
+        line
+        (at 0 0 90)
+        (length 0)
+        (name
+          "pwr"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C20"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "2.2nF X7R 50V"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C20_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C20_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R21"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "4.7k 1%"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R21_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R21_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R1"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R1_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R1_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R5"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R5_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R5_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "Q1"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "Q"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AO3400A"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:SOT-23_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "Q1_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "Q1_1_1"
+      (pin
+        input
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "G"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "S"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "D"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "D1"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "D1_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 1.2700 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 0.0000)
+          (xy 1.2700 1.2700)
+          (xy 1.2700 -1.2700)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 -1.2700)
+          (xy -1.2700 1.2700))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "D1_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "K"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "A"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "JM1"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "JM"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MOTOR 1"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Motor_Pads"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "JM1_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "JM1_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "M+"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "M-"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R2"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R2_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R2_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R6"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact_Assembly"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R6_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R6_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "Q2"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "Q"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AO3400A"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:SOT-23_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "Q2_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "Q2_1_1"
+      (pin
+        input
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "G"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "S"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "D"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "D2"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "D2_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 1.2700 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 0.0000)
+          (xy 1.2700 1.2700)
+          (xy 1.2700 -1.2700)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 -1.2700)
+          (xy -1.2700 1.2700))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "D2_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "K"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "A"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "JM2"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "JM"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MOTOR 2"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Motor_Pads"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "JM2_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "JM2_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "M+"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "M-"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R3"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R3_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R3_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R7"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R7_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R7_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "Q3"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "Q"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AO3400A"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:SOT-23_Compact_Assembly"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "Q3_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "Q3_1_1"
+      (pin
+        input
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "G"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "S"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "D"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "D3"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact_Assembly"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "D3_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 1.2700 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 0.0000)
+          (xy 1.2700 1.2700)
+          (xy 1.2700 -1.2700)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 -1.2700)
+          (xy -1.2700 1.2700))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "D3_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "K"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "A"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "JM3"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "JM"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MOTOR 3"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Motor_Pads"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "JM3_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "JM3_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "M+"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "M-"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R4"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R4_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R4_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R8"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact_Assembly"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R8_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R8_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "Q4"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "Q"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AO3400A"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:SOT-23_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "Q4_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "Q4_1_1"
+      (pin
+        input
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "G"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "S"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "D"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "D4"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Nexperia_CFP3_SOD-123W_CurvedEdge"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "D4_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 1.2700 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 0.0000)
+          (xy 1.2700 1.2700)
+          (xy 1.2700 -1.2700)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 -1.2700)
+          (xy -1.2700 1.2700))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "D4_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "K"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "A"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "JM4"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "JM"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MOTOR 4"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Motor_Pads"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "JM4_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "JM4_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "M+"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "M-"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "U2"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (at 0.0000 24.1300 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AT7456E"
+      (at 0.0000 21.5900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.75x6.2mm_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://datasheet.lcsc.com/datasheet/pdf/05e3e037fbf1dab52895a7a9e3a9c97c.pdf?productCode=C82351"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "U2_0_1"
+      (rectangle
+        (start -25.4 20.32)
+        (end 25.4 -20.32)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "U2_1_1"
+      (pin
+        no_connect
+        line
+        (at -27.939999999999998 17.78 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        no_connect
+        line
+        (at -27.939999999999998 15.240000000000002 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at -27.939999999999998 12.700000000000001 0)
+        (length 2.54)
+        (name
+          "DVDD"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at -27.939999999999998 10.16 0)
+        (length 2.54)
+        (name
+          "DGND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "4"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -27.939999999999998 7.620000000000001 0)
+        (length 2.54)
+        (name
+          "CLKIN"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "5"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 5.080000000000002 0)
+        (length 2.54)
+        (name
+          "XFB"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "6"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at -27.939999999999998 2.540000000000001 0)
+        (length 2.54)
+        (name
+          "CLKOUT"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "7"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -27.939999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "CSn"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "8"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -27.939999999999998 -2.539999999999999 0)
+        (length 2.54)
+        (name
+          "SDIN"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "9"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -27.939999999999998 -5.079999999999998 0)
+        (length 2.54)
+        (name
+          "SCLK"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "10"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        tri_state
+        line
+        (at -27.939999999999998 -7.619999999999997 0)
+        (length 2.54)
+        (name
+          "SDOUT"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "11"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        open_collector
+        line
+        (at -27.939999999999998 -10.16 0)
+        (length 2.54)
+        (name
+          "LOS"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "12"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -27.939999999999998 -12.7 0)
+        (length 2.54)
+        (name
+          "SYNC_IN / NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "13"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        no_connect
+        line
+        (at -27.939999999999998 -15.240000000000002 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "14"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        no_connect
+        line
+        (at -27.939999999999998 -17.78 0)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "15"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        no_connect
+        line
+        (at 27.939999999999998 17.78 180)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "16"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        open_collector
+        line
+        (at 27.939999999999998 15.240000000000002 180)
+        (length 2.54)
+        (name
+          "VSYNC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "17"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        open_collector
+        line
+        (at 27.939999999999998 12.700000000000001 180)
+        (length 2.54)
+        (name
+          "HSYNC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "18"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at 27.939999999999998 10.16 180)
+        (length 2.54)
+        (name
+          "RESETn"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "19"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 7.620000000000001 180)
+        (length 2.54)
+        (name
+          "AGND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "20"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 5.080000000000002 180)
+        (length 2.54)
+        (name
+          "AVDD"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "21"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at 27.939999999999998 2.540000000000001 180)
+        (length 2.54)
+        (name
+          "VIN"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "22"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 0.0 180)
+        (length 2.54)
+        (name
+          "PGND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "23"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 -2.539999999999999 180)
+        (length 2.54)
+        (name
+          "PVDD"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "24"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at 27.939999999999998 -5.079999999999998 180)
+        (length 2.54)
+        (name
+          "SAG"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "25"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at 27.939999999999998 -7.619999999999997 180)
+        (length 2.54)
+        (name
+          "VOUT"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "26"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        no_connect
+        line
+        (at 27.939999999999998 -10.16 180)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "27"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        no_connect
+        line
+        (at 27.939999999999998 -12.7 180)
+        (length 2.54)
+        (name
+          "NC"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "28"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 27.939999999999998 -15.240000000000002 180)
+        (length 2.54)
+        (name
+          "EP"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "29"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "Y1"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "Y"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "YSX321SL 27MHz 12pF"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:YSX321SL_3225_PINOUT_VERIFIED"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://evelta.com/ysx321sl-27mhz-12pf-10ppm-4pins-smd-smt-metal-surface-quartz-crystal/"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "Y1_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "Y1_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "XTAL1"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "CASE_GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "XTAL2"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 0.0 180)
+        (length 2.54)
+        (name
+          "CASE_GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "4"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "J2"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "J"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "CAMERA"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Camera_Pads_1p65"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "J2_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "J2_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "5V"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        output
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "CAM"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "J3"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "J"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AIR VTX"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:VTX_Pads_1p65"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "J3_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "J3_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "5V"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "VIDEO"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 0.0 180)
+        (length 2.54)
+        (name
+          "SA"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "4"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R12"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "10k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R12_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R12_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R14"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "10k"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R14_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R14_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R15"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "75R 1%"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R15_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R15_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R16"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "75R 1%"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R16_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R16_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C2"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C2_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C2_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C3"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C3_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C3_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C4"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C4_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C4_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C5"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C5_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C5_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C6"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "47uF 10V X5R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_1206_3216Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C6_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C6_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C7"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "47uF 10V X5R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_1206_3216Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C7_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C7_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C8"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "10uF 10V X5R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C8_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C8_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C9"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C9_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C9_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C10"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100nF"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C10_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C10_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "FB2"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "FB"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "BLM21PG601SN1D 600R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:L_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "FB2_0_1"
+      (rectangle
+        (start -2.54 1.27)
+        (end 2.54 -1.27)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "FB2_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C21"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "18pF C0G 50V"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C21_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C21_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C22"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "18pF C0G 50V"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C22_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C22_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "U4"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "TPS61023DRLR"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:SOT-563_Compact_Assembly"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.ti.com/lit/ds/symlink/tps61023.pdf"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "U4_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "U4_1_1"
+      (pin
+        input
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "FB"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        input
+        line
+        (at -15.239999999999998 0.0 0)
+        (length 2.54)
+        (name
+          "EN"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at -15.239999999999998 -2.54 0)
+        (length 2.54)
+        (name
+          "VIN"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "3"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_in
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "GND"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "4"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 0.0 180)
+        (length 2.54)
+        (name
+          "SW"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "5"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        power_out
+        line
+        (at 15.239999999999998 -2.54 180)
+        (length 2.54)
+        (name
+          "VOUT"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "6"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "D5"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "D"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "D5_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 1.2700 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 0.0000)
+          (xy 1.2700 1.2700)
+          (xy 1.2700 -1.2700)
+          (xy -1.2700 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -1.2700 -1.2700)
+          (xy -1.2700 1.2700))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "D5_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "K"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "A"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R17"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "732k 1%"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R17_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R17_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "R18"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "R"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k 1%"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "R18_0_1"
+      (rectangle
+        (start -2.54 1.016)
+        (end 2.54 -1.016)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "R18_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C14"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "10uF 10V X5R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C14_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C14_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C15"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "22uF 10V X5R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C15_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C15_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C16"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "22uF 10V X5R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C16_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C16_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C17"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "220pF C0G"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C17_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C17_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "C18"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "C"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "22uF 10V X5R"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:C_0805_2012Metric_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "C18_0_1"
+      (polyline
+        (pts
+          (xy -2.5400 0.0000)
+          (xy -0.6350 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 0.0000)
+          (xy 2.5400 0.0000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy -0.6350 -1.8000)
+          (xy -0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none)))
+      (polyline
+        (pts
+          (xy 0.6350 -1.8000)
+          (xy 0.6350 1.8000))
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "C18_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "L1"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "L"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "1uH XEL4030-102MEC"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:L_Coilcraft_XxL4030_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "L1_0_1"
+      (rectangle
+        (start -2.54 1.27)
+        (end 2.54 -1.27)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "L1_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "JP1"
+    (pin_names
+      (offset 0.635)
+      (hide yes))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "JP"
+      (at 0.0000 10.1600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "CLOSED in flight / OPEN for USB + battery"
+      (at 0.0000 7.6200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_Compact"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "JP1_0_1"
+      (rectangle
+        (start -2.54 1.27)
+        (end 2.54 -1.27)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type none))))
+    (symbol
+      "JP1_1_1"
+      (pin
+        passive
+        line
+        (at -5.08 0 0)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 5.08 0 180)
+        (length 2.54)
+        (name
+          "~"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0)))))))
+  (symbol
+    "J1"
+    (pin_names
+      (offset 0.635))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "J"
+      (at 0.0000 8.8900 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "1S BATTERY"
+      (at 0.0000 6.3500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Battery_Pads_2p6"
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 0.0000 0.0000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol
+      "J1_0_1"
+      (rectangle
+        (start -12.7 5.08)
+        (end 12.7 -5.08)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol
+      "J1_1_1"
+      (pin
+        passive
+        line
+        (at -15.239999999999998 2.54 0)
+        (length 2.54)
+        (name
+          "BAT+"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "1"
+          (effects
+            (font
+              (size 1.0 1.0)))))
+      (pin
+        passive
+        line
+        (at 15.239999999999998 2.54 180)
+        (length 2.54)
+        (name
+          "BAT-"
+          (effects
+            (font
+              (size 1.0 1.0))))
+        (number
+          "2"
+          (effects
+            (font
+              (size 1.0 1.0))))))))

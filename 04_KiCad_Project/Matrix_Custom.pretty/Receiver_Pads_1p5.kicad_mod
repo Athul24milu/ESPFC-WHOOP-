@@ -1,0 +1,97 @@
+(footprint "Receiver_Pads_1p5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J4"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9074974b-593f-4f46-9bf8-9d9ce77d437d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "iBUS / ELRS CRSF receiver"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5c31e8a-c6ae-41d1-b083-8682d2bfee48")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcc16a22-ac8b-4f27-b8b9-66245b2de6f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a15813d2-e208-41dd-a692-53d2841bfbf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -2.95 -0.949999) (xy 2.95 -0.949999) (xy 2.95 0.949999) (xy -2.95 0.949999)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8e01807e-a377-446f-9dce-3d15f8e03ea3")
+	)
+	(pad "1" smd roundrect
+		(at -2.25 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "358e89ca-17f1-4ec1-91ab-3a8d1a2b0160")
+	)
+	(pad "2" smd roundrect
+		(at -0.75 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "51ee6baf-5830-471c-bfb0-91bdfa112ec8")
+	)
+	(pad "3" smd roundrect
+		(at 0.75 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "ccc3aa84-bd66-4935-a410-3f2c3f923d5e")
+	)
+	(pad "4" smd roundrect
+		(at 2.25 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e9381770-0236-450a-ac19-a8e0d706edfe")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,18 @@
+# KiCad local UI state, locks and backups
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+*.bak
+*.bck
+_autosave-*
+fp-info-cache
+
+# Local machine files and credentials
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc

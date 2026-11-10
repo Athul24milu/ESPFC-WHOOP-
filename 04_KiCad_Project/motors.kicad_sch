@@ -1,0 +1,4001 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (generator_version "10.0")
+  (uuid "a26f0af6-8221-5995-9d6a-a2eab644664c")
+  (paper "A3")
+  (title_block
+    (title "Motor drivers")
+    (date "2026-11-07")
+    (rev "L2 - prototype fabrication")
+    (comment 1 "Unrouted engineering draft. Verify datasheets, power and mechanics before fabrication.")
+    (comment 2 "1S brushed 720 quad / XIAO ESP32-S3 / AT7456E / external analog VTX"))
+  (lib_symbols
+    (symbol
+      "MatrixDraft:R1"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100R"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R1_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R1_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:R5"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100k"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R5_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R5_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:Q1"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "Q"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "AO3400A"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:SOT-23_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "Q1_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "Q1_1_1"
+        (pin
+          input
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "G"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at -15.239999999999998 0.0 0)
+          (length 2.54)
+          (name
+            "S"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "D"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:D1"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "PMEG3020ER"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "D1_0_1"
+        (polyline
+          (pts
+            (xy -2.5400 0.0000)
+            (xy -1.2700 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.2700 0.0000)
+            (xy 2.5400 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.2700 0.0000)
+            (xy 1.2700 1.2700)
+            (xy 1.2700 -1.2700)
+            (xy -1.2700 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.2700 -1.2700)
+            (xy -1.2700 1.2700))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "D1_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:JM1"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "JM"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "MOTOR 1"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Motor_Pads"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "JM1_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "JM1_1_1"
+        (pin
+          passive
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "M+"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "M-"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:R2"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100R"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R2_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R2_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:R6"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100k"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact_Assembly"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R6_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R6_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:Q2"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "Q"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "AO3400A"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:SOT-23_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "Q2_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "Q2_1_1"
+        (pin
+          input
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "G"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at -15.239999999999998 0.0 0)
+          (length 2.54)
+          (name
+            "S"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "D"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:D2"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "PMEG3020ER"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "D2_0_1"
+        (polyline
+          (pts
+            (xy -2.5400 0.0000)
+            (xy -1.2700 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.2700 0.0000)
+            (xy 2.5400 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.2700 0.0000)
+            (xy 1.2700 1.2700)
+            (xy 1.2700 -1.2700)
+            (xy -1.2700 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.2700 -1.2700)
+            (xy -1.2700 1.2700))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "D2_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:JM2"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "JM"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "MOTOR 2"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Motor_Pads"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "JM2_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "JM2_1_1"
+        (pin
+          passive
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "M+"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "M-"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:R3"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100R"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R3_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R3_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:R7"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100k"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R7_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R7_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:Q3"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "Q"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "AO3400A"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:SOT-23_Compact_Assembly"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "Q3_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "Q3_1_1"
+        (pin
+          input
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "G"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at -15.239999999999998 0.0 0)
+          (length 2.54)
+          (name
+            "S"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "D"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:D3"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "PMEG3020ER"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact_Assembly"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "D3_0_1"
+        (polyline
+          (pts
+            (xy -2.5400 0.0000)
+            (xy -1.2700 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.2700 0.0000)
+            (xy 2.5400 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.2700 0.0000)
+            (xy 1.2700 1.2700)
+            (xy 1.2700 -1.2700)
+            (xy -1.2700 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.2700 -1.2700)
+            (xy -1.2700 1.2700))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "D3_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:JM3"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "JM"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "MOTOR 3"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Motor_Pads"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "JM3_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "JM3_1_1"
+        (pin
+          passive
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "M+"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "M-"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:R4"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100R"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R4_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R4_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:R8"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "100k"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:R_0805_2012Metric_Compact_Assembly"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "R8_0_1"
+        (rectangle
+          (start -2.54 1.016)
+          (end 2.54 -1.016)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "R8_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "~"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:Q4"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "Q"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "AO3400A"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:SOT-23_Compact"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "Q4_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "Q4_1_1"
+        (pin
+          input
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "G"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at -15.239999999999998 0.0 0)
+          (length 2.54)
+          (name
+            "S"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "D"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:D4"
+      (pin_names
+        (offset 0.635)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0.0000 10.1600 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "PMEG3020ER"
+        (at 0.0000 7.6200 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Nexperia_CFP3_SOD-123W_CurvedEdge"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "D4_0_1"
+        (polyline
+          (pts
+            (xy -2.5400 0.0000)
+            (xy -1.2700 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.2700 0.0000)
+            (xy 2.5400 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.2700 0.0000)
+            (xy 1.2700 1.2700)
+            (xy 1.2700 -1.2700)
+            (xy -1.2700 0.0000))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.2700 -1.2700)
+            (xy -1.2700 1.2700))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol
+        "D4_1_1"
+        (pin
+          passive
+          line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 5.08 0 180)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0)))))))
+    (symbol
+      "MatrixDraft:JM4"
+      (pin_names
+        (offset 0.635))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "JM"
+        (at 0.0000 8.8900 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Value"
+        "MOTOR 4"
+        (at 0.0000 6.3500 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property
+        "Footprint"
+        "Matrix_Custom:Motor_Pads"
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property
+        "Datasheet"
+        ""
+        (at 0.0000 0.0000 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol
+        "JM4_0_1"
+        (rectangle
+          (start -12.7 5.08)
+          (end 12.7 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol
+        "JM4_1_1"
+        (pin
+          passive
+          line
+          (at -15.239999999999998 2.54 0)
+          (length 2.54)
+          (name
+            "M+"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.0 1.0)))))
+        (pin
+          passive
+          line
+          (at 15.239999999999998 2.54 180)
+          (length 2.54)
+          (name
+            "M-"
+            (effects
+              (font
+                (size 1.0 1.0))))
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.0 1.0))))))))
+  (text
+    "FOUR LOW-SIDE BRUSHED MOTOR DRIVERS"
+    (at 15.2400 15.2400 0)
+    (effects
+      (font
+        (size 2.54 2.54))
+      (justify left top))
+    (uuid "50704729-3561-5837-ae19-8ea1efa1a416"))
+  (text
+    "One low-side N-channel MOSFET per motor. Flyback diodes return to VBAT."
+    (at 15.2400 25.4000 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "226966ba-c699-5404-89db-207978fc8357"))
+  (text
+    "Motor stall/start current and MOSFET heating require measurement."
+    (at 15.2400 30.4800 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "33044ee8-4217-5eab-98cf-36b264df350c"))
+  (text
+    "Place suppression capacitors physically at motor terminals where practical."
+    (at 15.2400 35.5600 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "0be7d9e2-8d2e-5c5f-a92d-b7b9df4d5d6d"))
+  (text
+    "MOTOR 1: PWM -> gate resistor -> AO3400A; flyback cathode to VBAT"
+    (at 20.3200 55.8800 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "78caec7f-0b20-5994-bf61-b91dd754ee5c"))
+  (symbol
+    (lib_id "MatrixDraft:R1")
+    (at 48.2600 71.1200 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "46bca663-6509-5367-b034-2a99212a5acf")
+    (property
+      "Reference"
+      "R1"
+      (at 48.2600 67.3100 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100R"
+      (at 48.2600 69.8500 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 48.2600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 48.2600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "ee0d45f2-45de-582d-93dc-a36aaebd41b1"))
+    (pin
+      "2"
+      (uuid "c550776d-0f46-580a-8a1b-d8b0b0224881"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "R1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 43.1800 71.1200)
+      (xy 35.5600 71.1200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b9e94299-a996-5196-a1f8-25e37bb09c52"))
+  (global_label
+    "PWM1"
+    (shape passive)
+    (at 35.5600 71.1200 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "383b400f-74e8-5711-b2ae-d023534d93da")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 35.5600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 53.3400 71.1200)
+      (xy 60.9600 71.1200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "acebb322-ea0e-5a27-b427-a4aeeda35003"))
+  (global_label
+    "GATE1"
+    (shape passive)
+    (at 60.9600 71.1200 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "641bb03f-a66a-53c9-9427-d75d0d483233")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 60.9600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:R5")
+    (at 124.4600 71.1200 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "7fcdfda8-6179-5f7d-89f6-010949fab1d5")
+    (property
+      "Reference"
+      "R5"
+      (at 124.4600 67.3100 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 124.4600 69.8500 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 124.4600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 124.4600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "43068b91-1ec5-513f-a4e3-19255e168ea0"))
+    (pin
+      "2"
+      (uuid "c53966e6-a49a-5d29-b33c-968643d0f08b"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "R5")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 119.3800 71.1200)
+      (xy 111.7600 71.1200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "61733638-42e5-5dbb-ab30-bafbbad42fa0"))
+  (global_label
+    "GATE1"
+    (shape passive)
+    (at 111.7600 71.1200 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "74bca213-7e9d-5a45-9f2e-374c092ab380")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 111.7600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 129.5400 71.1200)
+      (xy 137.1600 71.1200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7bb38626-8ee4-515f-b484-4bb0f2b21d7c"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 137.1600 71.1200 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "98748c5b-ae68-5d44-8e45-426867fd2083")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 137.1600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:Q1")
+    (at 200.6600 71.1200 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "18050f73-f837-5cb3-8070-e594ed0dfab0")
+    (property
+      "Reference"
+      "Q1"
+      (at 200.6600 60.9600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AO3400A"
+      (at 200.6600 63.5000 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:RevK_Assembly_Q1"
+      (at 200.6600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+      (at 200.6600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "2fc4e4d6-8a47-507e-8b2c-0eae8adae8a9"))
+    (pin
+      "2"
+      (uuid "8d250509-a1af-569c-88f7-ba09efecbbae"))
+    (pin
+      "3"
+      (uuid "6d8969dd-e80c-5b0e-88a7-b33b960f95d6"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "Q1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 185.4200 68.5800)
+      (xy 177.8000 68.5800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a53a9dfb-3a35-5699-8032-a6305747cc09"))
+  (global_label
+    "GATE1"
+    (shape passive)
+    (at 177.8000 68.5800 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "679f1c35-f255-5650-b3ce-6f1c4dd98b1c")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 177.8000 68.5800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 185.4200 71.1200)
+      (xy 177.8000 71.1200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9ee573de-818c-581c-ab68-da8f5d66ff6e"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 177.8000 71.1200 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "e264be8e-0df5-5896-90ab-042cbcb30034")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 177.8000 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 215.9000 68.5800)
+      (xy 223.5200 68.5800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b8fc48f8-b225-524b-af4b-f2fb346aab99"))
+  (global_label
+    "M1_NEG"
+    (shape passive)
+    (at 223.5200 68.5800 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "5d4dd04d-6803-56bb-bd47-3040c3737f14")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 223.5200 68.5800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:D1")
+    (at 276.8600 71.1200 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "07afc457-8103-58bb-936f-850550aa6a2c")
+    (property
+      "Reference"
+      "D1"
+      (at 276.8600 67.3100 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 276.8600 69.8500 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact"
+      (at 276.8600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 276.8600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "609ac469-61df-51bd-864b-f7a7ae709320"))
+    (pin
+      "2"
+      (uuid "dbac8304-8aee-5e57-b394-3a7577c547ad"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "D1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 271.7800 71.1200)
+      (xy 264.1600 71.1200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "350a4dd2-d1a2-52e5-b6ee-e30ded2fc863"))
+  (global_label
+    "VBAT"
+    (shape passive)
+    (at 264.1600 71.1200 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "51c4aed3-6af2-5e2f-85eb-dd28d06ad84b")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 264.1600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 281.9400 71.1200)
+      (xy 289.5600 71.1200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "35432e41-53ca-5022-bd2f-cbc8c5ad3997"))
+  (global_label
+    "M1_NEG"
+    (shape passive)
+    (at 289.5600 71.1200 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "93721a7e-86f5-5a0c-b1b1-05c1d4ecd25b")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 289.5600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:JM1")
+    (at 353.0600 71.1200 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "0638d001-e98d-5371-9868-43220a882093")
+    (property
+      "Reference"
+      "JM1"
+      (at 353.0600 60.9600 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MOTOR 1"
+      (at 353.0600 63.5000 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:RevK_Assembly_JM1"
+      (at 353.0600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 353.0600 71.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "aafa17e4-8533-566a-a4ff-96245ef96c98"))
+    (pin
+      "2"
+      (uuid "ecf978c2-f825-5a60-bf54-086e90b129f2"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "JM1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 337.8200 68.5800)
+      (xy 330.2000 68.5800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9045def8-d3f4-5523-9e58-5e88bd8e9c44"))
+  (global_label
+    "VBAT"
+    (shape passive)
+    (at 330.2000 68.5800 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "1c36b78c-5936-54e4-ac00-bbd5c7a40190")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 330.2000 68.5800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 368.3000 68.5800)
+      (xy 375.9200 68.5800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b202d076-cb2e-5d09-8e06-4dc96df80840"))
+  (global_label
+    "M1_NEG"
+    (shape passive)
+    (at 375.9200 68.5800 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "9f1c7dad-933c-57c0-bf9d-13041a55323b")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 375.9200 68.5800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (text
+    "MOTOR 2: PWM -> gate resistor -> AO3400A; flyback cathode to VBAT"
+    (at 20.3200 101.6000 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "01a939c9-2f57-5fc0-86ac-d3dc2f8791a3"))
+  (symbol
+    (lib_id "MatrixDraft:R2")
+    (at 48.2600 116.8400 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "77f32ee0-b608-5259-9bcd-f6e268dd2575")
+    (property
+      "Reference"
+      "R2"
+      (at 48.2600 113.0300 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100R"
+      (at 48.2600 115.5700 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 48.2600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 48.2600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "5fac4635-d19d-5df3-bf60-ddb38456d26e"))
+    (pin
+      "2"
+      (uuid "6315d63b-275f-556a-aacc-6d6babf41982"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "R2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 43.1800 116.8400)
+      (xy 35.5600 116.8400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b6ceb5cb-10e3-5c22-a3fb-b6cfc545ae1f"))
+  (global_label
+    "PWM2"
+    (shape passive)
+    (at 35.5600 116.8400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "077a6dd8-08c7-5c56-94d2-ce6c21376f23")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 35.5600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 53.3400 116.8400)
+      (xy 60.9600 116.8400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "06a9f1f5-3c11-5476-8350-100e5d5f92ac"))
+  (global_label
+    "GATE2"
+    (shape passive)
+    (at 60.9600 116.8400 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "33e1d4af-50a4-5d09-bf31-a6a8f983f85c")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 60.9600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:R6")
+    (at 124.4600 116.8400 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4cc06b40-7598-57f4-813b-97a347b29cc0")
+    (property
+      "Reference"
+      "R6"
+      (at 124.4600 113.0300 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 124.4600 115.5700 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact_Assembly"
+      (at 124.4600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 124.4600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "9774e373-c3dd-5bb1-85e2-94398eec41fc"))
+    (pin
+      "2"
+      (uuid "fe079703-c275-582f-bec2-fc2ec3ca7e50"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "R6")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 119.3800 116.8400)
+      (xy 111.7600 116.8400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0167f62a-4261-5174-9d72-471e0bce0af7"))
+  (global_label
+    "GATE2"
+    (shape passive)
+    (at 111.7600 116.8400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "7950ad1f-19f8-59a1-ae9a-be6e6e372394")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 111.7600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 129.5400 116.8400)
+      (xy 137.1600 116.8400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "36b1c026-bc55-55d5-844c-0ba8ee7c6400"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 137.1600 116.8400 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "9857741f-801c-5f0a-9d18-16d91d01adf0")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 137.1600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:Q2")
+    (at 200.6600 116.8400 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "e9285f41-2871-58d0-b7dc-8db095ba5c2c")
+    (property
+      "Reference"
+      "Q2"
+      (at 200.6600 106.6800 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AO3400A"
+      (at 200.6600 109.2200 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:SOT-23_Compact"
+      (at 200.6600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+      (at 200.6600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "a39867bc-6cc2-5b14-8d12-ad66922e5f43"))
+    (pin
+      "2"
+      (uuid "be15bb06-3254-590b-a091-2cc2fcf17d0f"))
+    (pin
+      "3"
+      (uuid "d8250910-57fd-5ad6-a3a9-510248b59efe"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "Q2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 185.4200 114.3000)
+      (xy 177.8000 114.3000))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9a0acc68-bd53-5b05-9b3b-a879ef8830e7"))
+  (global_label
+    "GATE2"
+    (shape passive)
+    (at 177.8000 114.3000 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "645b9a9f-4629-5b23-85ef-f2cdace680ec")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 177.8000 114.3000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 185.4200 116.8400)
+      (xy 177.8000 116.8400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f6e75192-6ae3-5808-b008-8f63aacde2cf"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 177.8000 116.8400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "652b0371-fc9c-5a2d-96c9-d9107e5f8506")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 177.8000 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 215.9000 114.3000)
+      (xy 223.5200 114.3000))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "aa8c0ad4-4f52-5699-9683-a4d1017868b1"))
+  (global_label
+    "M2_NEG"
+    (shape passive)
+    (at 223.5200 114.3000 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "58599cf7-3e1e-573b-b216-7339f493e2df")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 223.5200 114.3000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:D2")
+    (at 276.8600 116.8400 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b3269947-ae6d-5ade-91dc-047b3440b775")
+    (property
+      "Reference"
+      "D2"
+      (at 276.8600 113.0300 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 276.8600 115.5700 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:RevK_Assembly_D2"
+      (at 276.8600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 276.8600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "48bf0257-ff81-52b9-970f-a6ea4814592d"))
+    (pin
+      "2"
+      (uuid "401f9b54-2383-53ca-9ee2-128fb9bc1fd6"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "D2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 271.7800 116.8400)
+      (xy 264.1600 116.8400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5d49435e-de97-523a-a636-a18011c12281"))
+  (global_label
+    "VBAT"
+    (shape passive)
+    (at 264.1600 116.8400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "8456af5b-0601-5d2e-a0bf-a41d5a63a5de")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 264.1600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 281.9400 116.8400)
+      (xy 289.5600 116.8400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "046f0432-1cb0-5d08-8912-4c41551f501d"))
+  (global_label
+    "M2_NEG"
+    (shape passive)
+    (at 289.5600 116.8400 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "ae1947f0-86f2-5e92-977e-ed313b826334")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 289.5600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:JM2")
+    (at 353.0600 116.8400 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "eaef6906-6d0f-530f-a89a-07a8277b1ac5")
+    (property
+      "Reference"
+      "JM2"
+      (at 353.0600 106.6800 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MOTOR 2"
+      (at 353.0600 109.2200 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:RevK_Assembly_JM2"
+      (at 353.0600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 353.0600 116.8400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "f15eb860-5ed0-5940-94ed-9f6522ef91d6"))
+    (pin
+      "2"
+      (uuid "1024cd74-4c52-5405-adbf-f1e644fe46da"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "JM2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 337.8200 114.3000)
+      (xy 330.2000 114.3000))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ffa1af79-fd6e-5613-b4ba-fec13fd70e35"))
+  (global_label
+    "VBAT"
+    (shape passive)
+    (at 330.2000 114.3000 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "0520c56c-31e8-5f19-8c33-082ee6328c9c")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 330.2000 114.3000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 368.3000 114.3000)
+      (xy 375.9200 114.3000))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "3e958743-d355-58c9-ac47-1c146e7d6347"))
+  (global_label
+    "M2_NEG"
+    (shape passive)
+    (at 375.9200 114.3000 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "b4841c3c-cfe5-5a76-bbe8-090279f8c89a")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 375.9200 114.3000 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (text
+    "MOTOR 3: PWM -> gate resistor -> AO3400A; flyback cathode to VBAT"
+    (at 20.3200 147.3200 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "3506a323-86b6-5432-b86f-5d08c32d76db"))
+  (symbol
+    (lib_id "MatrixDraft:R3")
+    (at 48.2600 162.5600 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "69a0bdd2-5ec6-581d-ad85-151fbf57624d")
+    (property
+      "Reference"
+      "R3"
+      (at 48.2600 158.7500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100R"
+      (at 48.2600 161.2900 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 48.2600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 48.2600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "9e7353bd-9435-545e-85fd-30d0bcdd8ddd"))
+    (pin
+      "2"
+      (uuid "6375ca41-b9ac-5b91-96ee-1176c63df8dc"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "R3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 43.1800 162.5600)
+      (xy 35.5600 162.5600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9518ea86-b1ec-56f8-821b-aa8917350746"))
+  (global_label
+    "PWM3"
+    (shape passive)
+    (at 35.5600 162.5600 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "62c89bdf-63a1-575a-b014-f645425c8ed8")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 35.5600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 53.3400 162.5600)
+      (xy 60.9600 162.5600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "64c27ed4-90e9-5f9a-a0fa-f2ba0a3f780f"))
+  (global_label
+    "GATE3"
+    (shape passive)
+    (at 60.9600 162.5600 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "544558f8-6aa8-5187-a3f2-40ed27dfb72f")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 60.9600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:R7")
+    (at 124.4600 162.5600 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "64716d37-b484-50fb-b7c8-7822ea34c55a")
+    (property
+      "Reference"
+      "R7"
+      (at 124.4600 158.7500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 124.4600 161.2900 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 124.4600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 124.4600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "d8f04610-f7d4-57cd-a9e1-cc620e7a461f"))
+    (pin
+      "2"
+      (uuid "25baf6eb-863f-502f-9754-44812cd34942"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "R7")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 119.3800 162.5600)
+      (xy 111.7600 162.5600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "46c4619d-bf00-5eab-b04a-19e7545d82bf"))
+  (global_label
+    "GATE3"
+    (shape passive)
+    (at 111.7600 162.5600 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "3b720f1c-fe33-5306-a518-f7f4a5a11df7")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 111.7600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 129.5400 162.5600)
+      (xy 137.1600 162.5600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ebda88c2-fb73-5582-bc88-bf4d8e7bf8ff"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 137.1600 162.5600 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "d8fc688a-ac36-541b-a9f1-18d5eee8b535")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 137.1600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:Q3")
+    (at 200.6600 162.5600 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b7788e76-5fff-554e-8df1-b97faa8d53cd")
+    (property
+      "Reference"
+      "Q3"
+      (at 200.6600 152.4000 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AO3400A"
+      (at 200.6600 154.9400 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:SOT-23_Compact_Assembly"
+      (at 200.6600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+      (at 200.6600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "b32dfff2-de60-5e19-b55f-215e4687e3fa"))
+    (pin
+      "2"
+      (uuid "590b5bb8-9040-5345-9ebf-fefe12435862"))
+    (pin
+      "3"
+      (uuid "04901114-1885-5663-b968-e7c621e11e38"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "Q3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 185.4200 160.0200)
+      (xy 177.8000 160.0200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "3beff789-c1a1-50f2-9e0b-73e5d0763f2b"))
+  (global_label
+    "GATE3"
+    (shape passive)
+    (at 177.8000 160.0200 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "8753ae15-a162-5008-9772-e78391b7bbdc")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 177.8000 160.0200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 185.4200 162.5600)
+      (xy 177.8000 162.5600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "73a1b3ed-b9be-564c-8526-c9cdfbf364af"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 177.8000 162.5600 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "16a39d75-09b6-5afa-a121-2406b44f4c10")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 177.8000 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 215.9000 160.0200)
+      (xy 223.5200 160.0200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1950eb0d-d9e3-5cb7-af9f-4e443146de5d"))
+  (global_label
+    "M3_NEG"
+    (shape passive)
+    (at 223.5200 160.0200 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "ab7c19a3-ddf2-5c28-9abd-17bca66cb98a")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 223.5200 160.0200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:D3")
+    (at 276.8600 162.5600 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "00854f5e-20ca-57e5-9e80-12dcb33e398d")
+    (property
+      "Reference"
+      "D3"
+      (at 276.8600 158.7500 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 276.8600 161.2900 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Nexperia_CFP3_SOD-123W_Compact_Assembly"
+      (at 276.8600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 276.8600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "1437e04a-d2df-5016-b8b0-805484474c3d"))
+    (pin
+      "2"
+      (uuid "056c1b85-382d-525a-a4ec-bdc4adee21b9"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "D3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 271.7800 162.5600)
+      (xy 264.1600 162.5600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "30d6e0d6-ffc9-57c6-975f-d39238b7d632"))
+  (global_label
+    "VBAT"
+    (shape passive)
+    (at 264.1600 162.5600 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "0df828a1-4f81-5188-a6ca-b5d43e5b8a0f")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 264.1600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 281.9400 162.5600)
+      (xy 289.5600 162.5600))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "07c97916-3ca3-5051-bcfc-a81e0b2e88df"))
+  (global_label
+    "M3_NEG"
+    (shape passive)
+    (at 289.5600 162.5600 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "dd7df885-5059-55ea-9718-81a004d8ce9d")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 289.5600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:JM3")
+    (at 353.0600 162.5600 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "0920b9c6-f230-5107-93c7-980e488199ab")
+    (property
+      "Reference"
+      "JM3"
+      (at 353.0600 152.4000 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MOTOR 3"
+      (at 353.0600 154.9400 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:RevK_Assembly_JM3"
+      (at 353.0600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 353.0600 162.5600 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "2c68a627-64cf-575b-ba6d-ee4f950db512"))
+    (pin
+      "2"
+      (uuid "4067b418-c2c8-58c6-90a9-008c54868f69"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "JM3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 337.8200 160.0200)
+      (xy 330.2000 160.0200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "990d729d-00b3-5b6a-a64f-ffb2a3afd9d2"))
+  (global_label
+    "VBAT"
+    (shape passive)
+    (at 330.2000 160.0200 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "3f265ec3-9f9a-5d6e-bd84-244fd3044d0d")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 330.2000 160.0200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 368.3000 160.0200)
+      (xy 375.9200 160.0200))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c080c0ad-2512-58ce-a6cc-8bc2baeedb47"))
+  (global_label
+    "M3_NEG"
+    (shape passive)
+    (at 375.9200 160.0200 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "19e0f98c-1934-5c29-bd34-7d30b0e09e57")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 375.9200 160.0200 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (text
+    "MOTOR 4: PWM -> gate resistor -> AO3400A; flyback cathode to VBAT"
+    (at 20.3200 193.0400 0)
+    (effects
+      (font
+        (size 1.1 1.1))
+      (justify left top))
+    (uuid "8ae3feb7-d5da-5417-ac2e-a7c3a88312e2"))
+  (symbol
+    (lib_id "MatrixDraft:R4")
+    (at 48.2600 208.2800 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "13165d37-8e97-5d05-89d9-7d983446ab43")
+    (property
+      "Reference"
+      "R4"
+      (at 48.2600 204.4700 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100R"
+      (at 48.2600 207.0100 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact"
+      (at 48.2600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 48.2600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "d5aaa83c-91c6-58b2-b3cb-a335638f4665"))
+    (pin
+      "2"
+      (uuid "c96fc853-5761-588f-8039-74f84904b6e5"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "R4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 43.1800 208.2800)
+      (xy 35.5600 208.2800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bffb0380-64cd-54fe-8665-9cbcfeace5e5"))
+  (global_label
+    "PWM4"
+    (shape passive)
+    (at 35.5600 208.2800 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "8e3c3bb6-4e1e-5304-ba8b-3cc8da9929d1")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 35.5600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 53.3400 208.2800)
+      (xy 60.9600 208.2800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0bd02d48-b782-5aae-9d54-70ff9d837a5e"))
+  (global_label
+    "GATE4"
+    (shape passive)
+    (at 60.9600 208.2800 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "828b878a-5b52-5b16-bc59-b5ebb0a854ea")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 60.9600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:R8")
+    (at 124.4600 208.2800 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f1605f38-1ab4-5950-9ff4-44306878155f")
+    (property
+      "Reference"
+      "R8"
+      (at 124.4600 204.4700 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "100k"
+      (at 124.4600 207.0100 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:R_0805_2012Metric_Compact_Assembly"
+      (at 124.4600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 124.4600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "005685ad-85a6-5d7c-aaab-028755fd19be"))
+    (pin
+      "2"
+      (uuid "e97b8292-b0af-5ca8-a7f2-f2db197b41f3"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "R8")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 119.3800 208.2800)
+      (xy 111.7600 208.2800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "45a5183f-4fd7-5828-ae2f-b3c8ca9316b4"))
+  (global_label
+    "GATE4"
+    (shape passive)
+    (at 111.7600 208.2800 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "8f2e1553-830c-5b0b-a9dd-ddbfcdd3b3d1")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 111.7600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 129.5400 208.2800)
+      (xy 137.1600 208.2800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "de983316-c1c5-50e3-a7f4-51e4c76d5292"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 137.1600 208.2800 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "4b302641-7fe0-59e6-8919-bb4e2b7ccddf")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 137.1600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:Q4")
+    (at 200.6600 208.2800 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f5975631-9ef8-5094-903b-8c1b01194bdc")
+    (property
+      "Reference"
+      "Q4"
+      (at 200.6600 198.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "AO3400A"
+      (at 200.6600 200.6600 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:RevK_Assembly_Q4"
+      (at 200.6600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+      (at 200.6600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "ae547898-5685-5694-b2cc-a57259dd1448"))
+    (pin
+      "2"
+      (uuid "afc2c5bf-a92f-5f33-a1e2-78b850d38a27"))
+    (pin
+      "3"
+      (uuid "255511bc-be53-5483-bced-2ee85151f0ee"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "Q4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 185.4200 205.7400)
+      (xy 177.8000 205.7400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f8f49468-0c7d-5b6e-ab97-d35851f47caa"))
+  (global_label
+    "GATE4"
+    (shape passive)
+    (at 177.8000 205.7400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "c54e4f03-b7e1-587d-aa3b-627256f11189")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 177.8000 205.7400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 185.4200 208.2800)
+      (xy 177.8000 208.2800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "eb64efca-dd2e-5bf0-97d9-3e88c3603aeb"))
+  (global_label
+    "GND"
+    (shape passive)
+    (at 177.8000 208.2800 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "d7229121-1a95-5789-b118-22394a7bc87b")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 177.8000 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 215.9000 205.7400)
+      (xy 223.5200 205.7400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a8f3fd8b-cf96-5ab8-9cf0-d33c5a4a4820"))
+  (global_label
+    "M4_NEG"
+    (shape passive)
+    (at 223.5200 205.7400 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "63213742-568d-509d-8838-1095403f8fbd")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 223.5200 205.7400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:D4")
+    (at 276.8600 208.2800 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "dec846a9-3355-5ae8-ad46-e252fe9af680")
+    (property
+      "Reference"
+      "D4"
+      (at 276.8600 204.4700 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "PMEG3020ER"
+      (at 276.8600 207.0100 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:Nexperia_CFP3_SOD-123W_CurvedEdge"
+      (at 276.8600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 276.8600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "85d1ccf0-3488-5f42-bea5-a10f232fce87"))
+    (pin
+      "2"
+      (uuid "8d4f6ba4-6959-50b6-bc4b-0496e37a9159"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "D4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 271.7800 208.2800)
+      (xy 264.1600 208.2800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9e3f06aa-8cab-526d-8db3-27901101a834"))
+  (global_label
+    "VBAT"
+    (shape passive)
+    (at 264.1600 208.2800 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "9203defd-ed94-58f8-878c-70da7b45d597")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 264.1600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 281.9400 208.2800)
+      (xy 289.5600 208.2800))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "26a82f34-000e-5a75-a0f6-4c50f2e485e1"))
+  (global_label
+    "M4_NEG"
+    (shape passive)
+    (at 289.5600 208.2800 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "07c38e6a-b845-5415-9033-fa3dec5e5622")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 289.5600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "MatrixDraft:JM4")
+    (at 353.0600 208.2800 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "ece163a9-8005-5860-93e0-998c0d163504")
+    (property
+      "Reference"
+      "JM4"
+      (at 353.0600 198.1200 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property
+      "Value"
+      "MOTOR 4"
+      (at 353.0600 200.6600 0)
+      (effects
+        (font
+          (size 1.0 1.0))))
+    (property
+      "Footprint"
+      "Matrix_Custom:RevK_Assembly_JM4"
+      (at 353.0600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property
+      "Datasheet"
+      ""
+      (at 353.0600 208.2800 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin
+      "1"
+      (uuid "cf40a04d-aa2d-567c-bb24-e1a1f8cc1b1a"))
+    (pin
+      "2"
+      (uuid "2f512ea5-e151-5df6-8190-960c48662c39"))
+    (instances
+      (project
+        "ESP_FPV_ATHUL_IOGROUPED"
+        (path
+          "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771"
+          (reference "JM4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 337.8200 205.7400)
+      (xy 330.2000 205.7400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "476a4edb-5cf4-5c1c-9cb9-b273ff55c9bd"))
+  (global_label
+    "VBAT"
+    (shape passive)
+    (at 330.2000 205.7400 0)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify left))
+    (uuid "329c0f53-af2c-57d5-9523-f38a6a618970")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 330.2000 205.7400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 368.3000 205.7400)
+      (xy 375.9200 205.7400))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1cd878a4-2680-5006-9dec-1a538abbff85"))
+  (global_label
+    "M4_NEG"
+    (shape passive)
+    (at 375.9200 205.7400 180)
+    (effects
+      (font
+        (size 1.0 1.0))
+      (justify right))
+    (uuid "46d87a17-61d7-5334-9221-834c18610074")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 375.9200 205.7400 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))))

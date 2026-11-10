@@ -1,0 +1,190 @@
+{
+  "layers": {
+    "top copper": {
+      "objects": 888,
+      "bounds_mm": [
+        [
+          109.5914,
+          -141.4847
+        ],
+        [
+          141.587749,
+          -108.187
+        ]
+      ]
+    },
+    "top mask": {
+      "objects": 70,
+      "bounds_mm": [
+        [
+          106.5214,
+          -143.4786
+        ],
+        [
+          143.4786,
+          -106.5214
+        ]
+      ]
+    },
+    "top silk": {
+      "objects": 1016,
+      "bounds_mm": [
+        [
+          109.076529,
+          -133.980757
+        ],
+        [
+          138.670101,
+          -108.928571
+        ]
+      ]
+    },
+    "top paste": {
+      "objects": 47,
+      "bounds_mm": [
+        [
+          112.096351,
+          -141.124549
+        ],
+        [
+          141.587749,
+          -108.434685
+        ]
+      ]
+    },
+    "bottom copper": {
+      "objects": 1061,
+      "bounds_mm": [
+        [
+          105.200712,
+          -144.799287
+        ],
+        [
+          144.799287,
+          -105.200712
+        ]
+      ]
+    },
+    "bottom mask": {
+      "objects": 171,
+      "bounds_mm": [
+        [
+          106.5214,
+          -143.4786
+        ],
+        [
+          143.4786,
+          -106.5214
+        ]
+      ]
+    },
+    "bottom silk": {
+      "objects": 66,
+      "bounds_mm": [
+        [
+          108.704787,
+          -134.973666
+        ],
+        [
+          139.517403,
+          -108.393744
+        ]
+      ]
+    },
+    "bottom paste": {
+      "objects": 156,
+      "bounds_mm": [
+        [
+          108.627997,
+          -141.513449
+        ],
+        [
+          141.637203,
+          -108.539597
+        ]
+      ]
+    },
+    "inner_1 copper": {
+      "objects": 569,
+      "bounds_mm": [
+        [
+          105.200819,
+          -144.79918
+        ],
+        [
+          144.79918,
+          -105.200819
+        ]
+      ]
+    },
+    "inner_2 copper": {
+      "objects": 547,
+      "bounds_mm": [
+        [
+          105.200819,
+          -144.79918
+        ],
+        [
+          140.5577,
+          -108.187
+        ]
+      ]
+    },
+    "mechanical outline": {
+      "objects": 384,
+      "bounds_mm": [
+        [
+          104.975,
+          -145.025
+        ],
+        [
+          145.025,
+          -104.975
+        ]
+      ]
+    }
+  },
+  "drill_counts": [
+    113,
+    4
+  ],
+  "outline_bounds_mm": [
+    [
+      104.975,
+      -145.025
+    ],
+    [
+      145.025,
+      -104.975
+    ]
+  ],
+  "drills_match_native": true,
+  "missing_drills": [],
+  "extra_drills": [],
+  "component_netlist_attributes_present": [],
+  "bottom_copper_dark_fraction_in_die": 0.0,
+  "bottom_mask_dark_fraction_in_die": 0.0,
+  "bottom_paste_dark_fraction_in_die": 0.0,
+  "inner_2_copper_dark_fraction_in_die": 1.0,
+  "drill_coordinate_resolution_mm": 0.001,
+  "drill_max_axis_rounding_error_mm": 0.0005000000000023874,
+  "drill_comparison": "One-to-one hole/diameter match allowing half of the 0.001 mm export coordinate increment.",
+  "native_pcb_sha256": "a969675d97ac1fef2849e9827849574aff3a0ede1dadf398aae0b877f3d0652f",
+  "export_sha256": {
+    "ESP_FPV_ATHUL_IOGROUPED-B_Cu.gbl": "bc04d2ca1ec160e669ee0403bd804030ba6912e094a723e0650201f39f4f22bb",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Mask.gbs": "41634954356266e2b6979196db055cb18d7c8a46cdaeaebf789059c9a2e2fa20",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Paste.gbp": "82f729dd924ccf890c48450ee54ab239b9cb7999fe26b763a4f0dbe92e0dc2c1",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Silkscreen.gbo": "5bbe10d8a4a38e79d94f0ebed07e95d4ed68b4c99e135349dd04cfcd95bee3d5",
+    "ESP_FPV_ATHUL_IOGROUPED-Edge_Cuts.gm1": "9cbb8c89bdd3ef78a9af5dc757da44996b66a6bb51b5172a18a3372b1ae34a6c",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Cu.gtl": "0e777bde9ce8811a96efcd6c36cfd113320a07875aeb8d2d259e6519c7477e03",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Mask.gts": "9afdfcb46a66b8ce8835fdb8404662e4808a95c73556ce3f97737fc89c5ab990",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Paste.gtp": "fa3b834b71c2be910ba7e53b41e140a081c30c9d3793c3b080973bde5e1f5807",
+    "ESP_FPV_ATHUL_IOGROUPED-f_silkscreen.gto": "45d5bf3ce839c6484e84c0a8869f28eb77c180e626175fb18d481198dc0d5ba3",
+    "ESP_FPV_ATHUL_IOGROUPED-In1_Cu.g1": "06972110db2c7c6b7c9eeaff4d2b38871924407a5c071b20ec20bc283d9cc178",
+    "ESP_FPV_ATHUL_IOGROUPED-In2_Cu.g2": "0937da459da6c40a62c14510b131aa3b075e7c5cc4976d8c1dcef63ff09ada31",
+    "ESP_FPV_ATHUL_IOGROUPED-job.gbrjob": "9ac5b1065454038777d270f0ee33b63022df9793a2d7648e7238bb20b8819cd6",
+    "ESP_FPV_ATHUL_IOGROUPED-NPTH.drl": "bc854da3281734c8b1075ac3ba8979a658703a5d18669e3f4614d6b2cff1fd79",
+    "ESP_FPV_ATHUL_IOGROUPED-PTH.drl": "c79ed7518b5bdefb37e84cac8e5a5446ce8cf53663314bde2afac35190893eb3",
+    "PCB_ORDER_NOTES.txt": "70e6f4ef64cecbdd7261114956a9c8996c50b0dacdad1092acca8dcccf046fef"
+  }
+}

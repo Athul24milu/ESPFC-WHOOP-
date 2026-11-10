@@ -1,0 +1,10 @@
+# Preserve release-file bytes so the SHA256 manifest also verifies after cloning.
+* -text
+README.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.pdf binary
+*.zip binary
+*.xlsx binary
+*.png binary
+*.step binary

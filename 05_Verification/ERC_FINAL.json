@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-10T21:09:08",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/e8823102-ba97-5030-ace8-be93219e8974",
+            "violations": []
+        },
+        {
+            "path": "/XIAO, battery sensing and blue status LED/",
+            "uuid_path": "/e8823102-ba97-5030-ace8-be93219e8974/0afdc1be-5fcf-5ff6-b662-946a5f10689a",
+            "violations": []
+        },
+        {
+            "path": "/1S battery and regulated supplies/",
+            "uuid_path": "/e8823102-ba97-5030-ace8-be93219e8974/4dedc513-a128-59dc-ae23-cc332ad6630c",
+            "violations": []
+        },
+        {
+            "path": "/Four low-side brushed motor drivers/",
+            "uuid_path": "/e8823102-ba97-5030-ace8-be93219e8974/03ea20c8-1d8b-56e7-8c05-fa6e806fe771",
+            "violations": []
+        },
+        {
+            "path": "/AT7456E analog OSD and video path/",
+            "uuid_path": "/e8823102-ba97-5030-ace8-be93219e8974/ac91a252-0f9f-5953-86e0-d2a7bae69f18",
+            "violations": []
+        },
+        {
+            "path": "/Inertial sensor and decoupling/",
+            "uuid_path": "/e8823102-ba97-5030-ace8-be93219e8974/e9f7d15e-7e4b-5c48-b1fd-a050d2347a7f",
+            "violations": []
+        },
+        {
+            "path": "/External solder connections/",
+            "uuid_path": "/e8823102-ba97-5030-ace8-be93219e8974/09fb4494-d2f8-553e-8c15-2a4346e74520",
+            "violations": []
+        }
+    ],
+    "source": "ESP_FPV_ATHUL_IOGROUPED.kicad_sch"
+}
