@@ -1,4 +1,4 @@
-# L2 firmware pin map — required changes
+# L3 firmware pin map — required changes
 
 The PCB and schematic implement these three changes:
 

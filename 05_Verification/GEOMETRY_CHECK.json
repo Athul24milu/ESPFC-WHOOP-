@@ -1,11 +1,9 @@
 {
   "footprints": 75,
   "changed_land_patterns": [],
-  "moved_footprints": [
-    "R5"
-  ],
+  "moved_footprints": [],
   "reference_artwork_objects": 1023,
-  "changed_artwork_objects": 0,
+  "changed_artwork_objects": 76,
   "mpu_exposed_die_copper_hits": [],
   "u2_thermal_vias_in_ep": [
     [

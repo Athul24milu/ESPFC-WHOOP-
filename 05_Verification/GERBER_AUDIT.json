@@ -1,7 +1,7 @@
 {
   "layers": {
     "top copper": {
-      "objects": 888,
+      "objects": 890,
       "bounds_mm": [
         [
           109.5914,
@@ -27,14 +27,14 @@
       ]
     },
     "top silk": {
-      "objects": 1016,
+      "objects": 1117,
       "bounds_mm": [
         [
-          109.076529,
-          -133.980757
+          108.879819,
+          -133.52335599999998
         ],
         [
-          138.670101,
+          138.51217799999998,
           -108.928571
         ]
       ]
@@ -53,7 +53,7 @@
       ]
     },
     "bottom copper": {
-      "objects": 1061,
+      "objects": 1064,
       "bounds_mm": [
         [
           105.200712,
@@ -79,14 +79,14 @@
       ]
     },
     "bottom silk": {
-      "objects": 66,
+      "objects": 85,
       "bounds_mm": [
         [
           108.704787,
           -134.973666
         ],
         [
-          139.517403,
+          139.22035699999998,
           -108.393744
         ]
       ]
@@ -118,7 +118,7 @@
       ]
     },
     "inner_2 copper": {
-      "objects": 547,
+      "objects": 551,
       "bounds_mm": [
         [
           105.200819,
@@ -158,33 +158,32 @@
       -104.975
     ]
   ],
+  "drill_coordinate_max_error_mm": 0.0007071067811899238,
+  "drill_coordinate_tolerance_mm": 0.00075,
   "drills_match_native": true,
   "missing_drills": [],
   "extra_drills": [],
+  "rounding_only_differences_at_3_decimal_places": true,
   "component_netlist_attributes_present": [],
   "bottom_copper_dark_fraction_in_die": 0.0,
   "bottom_mask_dark_fraction_in_die": 0.0,
   "bottom_paste_dark_fraction_in_die": 0.0,
   "inner_2_copper_dark_fraction_in_die": 1.0,
-  "drill_coordinate_resolution_mm": 0.001,
-  "drill_max_axis_rounding_error_mm": 0.0005000000000023874,
-  "drill_comparison": "One-to-one hole/diameter match allowing half of the 0.001 mm export coordinate increment.",
-  "native_pcb_sha256": "a969675d97ac1fef2849e9827849574aff3a0ede1dadf398aae0b877f3d0652f",
+  "native_pcb_sha256": "e35621e67d647e86b68521268db11ad04fc173ab6f83eec627cd4a64396d9791",
   "export_sha256": {
-    "ESP_FPV_ATHUL_IOGROUPED-B_Cu.gbl": "bc04d2ca1ec160e669ee0403bd804030ba6912e094a723e0650201f39f4f22bb",
-    "ESP_FPV_ATHUL_IOGROUPED-B_Mask.gbs": "41634954356266e2b6979196db055cb18d7c8a46cdaeaebf789059c9a2e2fa20",
-    "ESP_FPV_ATHUL_IOGROUPED-B_Paste.gbp": "82f729dd924ccf890c48450ee54ab239b9cb7999fe26b763a4f0dbe92e0dc2c1",
-    "ESP_FPV_ATHUL_IOGROUPED-B_Silkscreen.gbo": "5bbe10d8a4a38e79d94f0ebed07e95d4ed68b4c99e135349dd04cfcd95bee3d5",
-    "ESP_FPV_ATHUL_IOGROUPED-Edge_Cuts.gm1": "9cbb8c89bdd3ef78a9af5dc757da44996b66a6bb51b5172a18a3372b1ae34a6c",
-    "ESP_FPV_ATHUL_IOGROUPED-F_Cu.gtl": "0e777bde9ce8811a96efcd6c36cfd113320a07875aeb8d2d259e6519c7477e03",
-    "ESP_FPV_ATHUL_IOGROUPED-F_Mask.gts": "9afdfcb46a66b8ce8835fdb8404662e4808a95c73556ce3f97737fc89c5ab990",
-    "ESP_FPV_ATHUL_IOGROUPED-F_Paste.gtp": "fa3b834b71c2be910ba7e53b41e140a081c30c9d3793c3b080973bde5e1f5807",
-    "ESP_FPV_ATHUL_IOGROUPED-f_silkscreen.gto": "45d5bf3ce839c6484e84c0a8869f28eb77c180e626175fb18d481198dc0d5ba3",
-    "ESP_FPV_ATHUL_IOGROUPED-In1_Cu.g1": "06972110db2c7c6b7c9eeaff4d2b38871924407a5c071b20ec20bc283d9cc178",
-    "ESP_FPV_ATHUL_IOGROUPED-In2_Cu.g2": "0937da459da6c40a62c14510b131aa3b075e7c5cc4976d8c1dcef63ff09ada31",
-    "ESP_FPV_ATHUL_IOGROUPED-job.gbrjob": "9ac5b1065454038777d270f0ee33b63022df9793a2d7648e7238bb20b8819cd6",
-    "ESP_FPV_ATHUL_IOGROUPED-NPTH.drl": "bc854da3281734c8b1075ac3ba8979a658703a5d18669e3f4614d6b2cff1fd79",
-    "ESP_FPV_ATHUL_IOGROUPED-PTH.drl": "c79ed7518b5bdefb37e84cac8e5a5446ce8cf53663314bde2afac35190893eb3",
-    "PCB_ORDER_NOTES.txt": "70e6f4ef64cecbdd7261114956a9c8996c50b0dacdad1092acca8dcccf046fef"
+    "ESP_FPV_ATHUL_IOGROUPED-B_Cu.gbl": "529a82ffe39edd1a010f79bfd2f18889a6809a4e9bdc1d25b46e04d561061a4c",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Mask.gbs": "c02f2268c9bee25fa34470ca835547e34ae65f719780af15b90f73e879f2e6af",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Paste.gbp": "03996663c826909d5eeaf61439e072a8205fe20b06458f7e5a9eec61e7654cc7",
+    "ESP_FPV_ATHUL_IOGROUPED-B_Silkscreen.gbo": "574a17b36519d6ee3d2f5f41856fab49c5629046a5da0e6ec60b6d4ba6ffa06d",
+    "ESP_FPV_ATHUL_IOGROUPED-Edge_Cuts.gm1": "6037bf69642f9fa94f74bdd2d274b7bb4c89014dd98c0cd1b3641ca2cd019222",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Cu.gtl": "176f526784c88d79d4732209beb6f0235d39bdc4d15545b765d4142eb8237a28",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Mask.gts": "62381ea34d65f11be20b64e502be1bfdc48024accb6427390f3aaec301bc85be",
+    "ESP_FPV_ATHUL_IOGROUPED-F_Paste.gtp": "6ecda108459afe63f87c25275a0d747f0e6be686654051197338fa4d72907d9c",
+    "ESP_FPV_ATHUL_IOGROUPED-f_silkscreen.gto": "8456119ff50f0134c814b978a57bc7a0a34c576070151ba2a24032c3041eabed",
+    "ESP_FPV_ATHUL_IOGROUPED-In1_Cu.g1": "d069bc6700a77f28df57e6ac3ee4f0b2344f639dd7d76cbb20ef332ca80d6f7a",
+    "ESP_FPV_ATHUL_IOGROUPED-In2_Cu.g2": "4b4d80bb7f66520f5bfa1b7730462f45902e60e1aae76f759774b8bc335f9bca",
+    "ESP_FPV_ATHUL_IOGROUPED-NPTH.drl": "6f28a3eef1cceba802199a7a82117efc96abbae21759bbba15046231a74e90b1",
+    "ESP_FPV_ATHUL_IOGROUPED-PTH.drl": "bed7ab2ad1bc031828db1fe8f0c5285dc98a12976100c61ba23893e0cbe1784d",
+    "PCB_ORDER_NOTES.txt": "5a3a780d47e993ebf6f3babdfb51970719d5beec7302d3a04232eb89fdd63e28"
   }
 }

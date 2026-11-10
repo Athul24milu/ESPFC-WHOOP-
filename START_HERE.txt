@@ -1,17 +1,21 @@
-ESP FC FINAL FIXED - MATRIX40 L2 - 10 November 2026
+ESP FC FINAL FIXED - current revision L3, 11 November 2026
 
-UPLOAD TO JLCPCB: only 01_JLCPCB_UPLOAD/ESP_FC_L2_PCB_ONLY_GERBERS.zip.
-It contains PCB copper/mask/silk/paste/outline and plated/nonplated drills only.
-Do not upload the whole folder. PCB assembly is done at home; no JLC assembly service, BOM or CPL is required for bare-board fabrication.
+UPLOAD ONLY: 01_JLCPCB_UPLOAD/ESP_FC_L3_PCB_ONLY_GERBERS.zip
 
-ORDER: 4 layers, 40 x 40 mm outline, 1.00 mm FR4, ENIG, white mask / black legend. Specify 1 oz (35um) copper on ALL FOUR layers; default 0.5oz inner layers are not equivalent. Standard through vias. 4 x 2.1mm NPTH mounting holes. Read manufacturing notes and approve JLC's artwork proof.
+ESP FPV / ATHUL L3 - PCB-only fabrication data - 11 November 2026
+4 copper layers: F.Cu, In1.Cu, In2.Cu, B.Cu.
+40 x 40 mm curved diamond outline. Use Edge.Cuts centerline.
+1.00 mm FR4; 35 um / 1 oz copper on ALL FOUR layers, including both inner layers.
+White solder mask, black legend, ENIG. Standard through vias; minimum drill 0.20 mm.
+113 plated via holes; 4 NPTH mounting holes, diameter 2.10 mm.
+Separate PTH / NPTH Excellon drills, metric absolute origin, shared with Gerbers.
+11 RS-274X Gerber layers. No BOM, placement, schematic or component/netlist attributes.
+L3: nine via approaches corrected; production-size stroke-font legends; 0 errors, 0 warnings, 0 unconnected items in KiCad DRC.
+Short printed labels: B=battery; C=camera video; V=video out; S=SmartAudio; R=FC RX; T=FC TX. Polarity marks are 0.15 mm stroke graphic symbols.
+Use insulating M2 mounting hardware. Have the fabricator review its manufacturing proof.
 
-02_Guides: brochure, 10-page component/assembly map and top/bottom component image. The map is A3 landscape; zoom or print its closeups for soldering. The brochure is A4. Views are CAD renders, not photographs or drilling templates.
-03_BOM_and_Purchase: final-board BOM and purchase links. 75 board references, 62 fitted component packages. Purchase sheet groups identical requirements. Product/catalogue links and vendor SEARCH links are distinguished. Search links do not establish stock, compatibility or price. Unconfirmed components remain clearly marked. C17 is FIT 220pF C0G; C20 is 2.2nF X7R 50V. C6/C7 are 1206, most other passives 0805.
-04_KiCad_Project: complete current editable project, child schematics, local libraries and models. Open ESP_FPV_ATHUL_IOGROUPED.kicad_pro with KiCad 10.
-05_Verification: official KiCad and export audit records.
+Validation: 0 electrical DRC errors, 0 warnings, 0 unconnected, 0 parity issues, 0 ERC violations. Read 02_Guides/MANUFACTURING_README.md and FIRMWARE_PINMAP.md.
 
-IMPORTANT: SDA GPIO5, SCL GPIO43, PWM3 GPIO39. Old/default pin maps are incompatible. Read FIRMWARE_PINMAP.md. No flight firmware is included. First power without motors using a current-limited supply; test rails and IMU before flight.
-Recorded checks: 0 electrical DRC errors, 0 unconnected, 0 parity issues and 0 ERC violations. 55 visible warnings remain: 46 retained artwork typography warnings and 9 documented via-center alignment warnings. Have JLC accept the fine artwork. This is a prototype fabrication revision; assembled performance and motor current/temperature still require bench testing.
+The L2-named purchase BOM remains valid: component values, footprints and pin assignments are unchanged in L3. Search-only purchase links and substitute candidates are NOT automatically approved or confirmed in stock.
 
-PURCHASING: Bare MPU6050 reported already owned. Confirm any owned OSD is a bare AT7456E, not a module. L1 Robu listing has conflicting MPN; buy only a confirmed XEL4030-102MEC. The owned Sunlord inductor is not approved for this footprint. MOSFET alternatives require correct 1G/2S/3D pinout. Y1 must be a passive 27MHz/12pF 3225 crystal, not an active oscillator. Parts with search-only links still need an exact seller SKU. Motors, props, frame, camera, VTX, receiver and battery are external to this FC component BOM.
+The L3 user manual and component map replace their older L2 versions. The electronics still require prototype bring-up.

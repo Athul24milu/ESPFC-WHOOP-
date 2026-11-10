@@ -3,6 +3,7 @@
 *.lck
 ~*.lck
 *-backups/
+.history/
 *.bak
 *.bck
 _autosave-*
